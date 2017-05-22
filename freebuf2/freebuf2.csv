@@ -1,0 +1,61 @@
+date,url,title,tags
+2017-04-13,http://www.freebuf.com/articles/system/131363.html," Arduino+Avr libc制作Badusb原理及示例讲解 ,一、  前言,二、硬件准备,三、知识扫盲,四、知识获取途径,五、Badusb固件编写,六、Badusb配置界面,七、技术展望,八、总结","极客,系统安全"
+2017-04-11,http://www.freebuf.com/jobs/131633.html," VIPKID安全部诚邀各类安全人才 ,公司简介：,部门简介：,职位名称：高级网络安全工程师 （1名）   所属部门：安全部-基础安全组,职位名称： 应用安全专家（1名）   所属部门：安全部-应用安全组,职位名称： 高级安全开发工程师（4名）   所属部门：安全部-安全开发组,职位名称：信息安全管理工程师（2名）   所属部门：安全部-安全管理组,职位名称：数据安全专家（1名）     所属部门：安全部-安全开发组,职位名称：高级安全工程师（1名）     所属部门：安全部-安全应急响应中心,职位名称：安全运营工程师（1名）     所属部门：安全部-安全应急响应中心",招聘
+2017-04-11,http://www.freebuf.com/news/131609.html," 以中国同为数码为目标的恶意程序Amnesia，影响全球各地22.7万台IoT设备 ,技术细节,漏洞利用与传播,反取证,总结,防护",资讯
+2017-04-12,http://www.freebuf.com/geek/131270.html," 极客DIY：如何动手“组装”一个机器人 ,前言,博尔机器人的第一代,二代,三代",极客
+2017-04-12,http://www.freebuf.com/sectool/131393.html," 针对提权小神器Sherlock的分析与利用 ,0×01 Sherlock简介,0×02 初步使用,0×03 隐藏的小技巧,0×04 Sherlock漏洞验证原理分析,0×05 总结",工具
+2017-04-12,http://www.freebuf.com/articles/web/131305.html," 基于Session的身份窃取 ,一、Session是什么,二、Session Hijacking,三、 , Session Fixation,四、防御对策,参考资料",WEB安全
+2017-04-12,http://www.freebuf.com/articles/network/131385.html," 新手教程：局域网DNS劫持实战 ,0×04攻击复现,0×05 更深入的了解","新手科普,网络安全"
+2017-04-12,http://www.freebuf.com/freebuf%e5%85%ac%e5%bc%80%e8%af%be-2/131767.html," 【周五预告】FreeBuf.公开课 | 《网络安全法》企业合规 ,本期讲师,分享内容,公开课信息",FreeBuf公开课
+2017-04-12,http://www.freebuf.com/sectool/131390.html," PowerMeta：通过Google和Bing搜索特定域名上的有价值文件 ,PowerMeta,工具使用",工具
+2017-04-12,http://www.freebuf.com/articles/network/131518.html," 看我如何从一个APK到最终拿下域管理权限? ,背景,攻击叙述,针对智能手机,Meterpreter的利用,针对内网服务器",网络安全
+2017-04-13,http://www.freebuf.com/sectool/131550.html," 调查：渗透测试人员最爱的安全工具及技术 ,额外信息,总结",工具
+2017-04-13,http://www.freebuf.com/sectool/131275.html," 说说Powersploit在内网渗透中的使用 ,一.Powershell,二. Powersploit","工具,网络安全"
+2017-04-13,http://www.freebuf.com/articles/web/131350.html," Python安全运维实战：针对几种特定隐藏方式的Webshell查杀 ,0X02 畸形文件名、保留文件名隐藏webshell,0X04 总结",WEB安全
+2017-04-13,http://www.freebuf.com/articles/neopoints/131514.html," 浅析用户行为分析系统（UEBA） ,UEBA和SIEM",观点
+2017-04-13,http://www.freebuf.com/sectool/131640.html, 子域名爆破工具 – 啸天犬 ,工具
+2017-04-13,http://www.freebuf.com/vuls/131814.html," Word漏洞CVE-2017-0199剖析，微软的补丁你装了吗？ ,前言,攻击场景,文件1-（MD5:5ebfd13250dd0408e3de594e419f9e01）,LATENTBOT Payload,文档2-（MD5:C10DABB05A38EDD8A9A0DDDA1C9AF10E）,概括总结","漏洞,系统安全"
+2017-04-11,http://www.freebuf.com/vuls/131648.html," PHPcms9.6.0 最新版任意文件上传漏洞（直接getshell） ,对于PHPcms9.6.0 最新版漏洞，具体利用步骤如下：,利用方式二：","WEB安全,漏洞"
+2017-04-09,http://www.freebuf.com/news/131520.html," 谷歌发现了一个潜伏了三年的Android间谍程序 ,Chrysaor分析,感染情况,其复杂程度不言而喻,结束语",资讯
+2017-04-09,http://www.freebuf.com/news/131531.html," NSA方程式有更多黑客工具下载了！信息量很大，连中国运营商都被入侵过？ ,现在就能免费下载解密,里面到底有什么？","工具,资讯"
+2017-04-10,http://www.freebuf.com/articles/network/131279.html," 用机器学习玩转恶意URL检测 ,0×00 收集数据集,0×01 计算特征矩阵,0×02 训练检测模型,0×03 测试模型效果,0×04 总结",网络安全
+2017-04-10,http://www.freebuf.com/articles/terminal/131193.html," 基于ArduinoLeonardo板子的BadUSB攻击实战 ,0X00 前言,0X01 绕过360主动防御,0X02最大化隐蔽操作,0X03免杀Payload,0X04针对不联网设备攻击,结语","系统安全,终端安全"
+2017-04-10,http://www.freebuf.com/articles/web/131137.html," 利用Hook技术实现浏览器HTTPS劫持 ,（一）分析方法,（二）代码实现,总结",WEB安全
+2017-04-10,http://www.freebuf.com/articles/terminal/131395.html," IoT DDoS警报系统是如何帮助我们预测网络攻击的？ ,将IoT设备添加到列表中,IoTPOT，用于IoT设备的蜜罐,Telnet攻击的步骤,IoT沙箱：IoTBOX,研究人员的结论",终端安全
+2017-04-10,http://www.freebuf.com/news/131563.html," CIA泄露文档最新曝光：针对Windows系统的网络武器Grasshopper ,Grasshopper具备灵活的恶意软件定制化开发组装功能,Grasshopper支持模块化和多种操作需求,Grasshopper模仿借鉴了俄罗斯Carberp rootkit木马程序代码",资讯
+2017-04-10,http://www.freebuf.com/articles/database/131268.html," 什么是集中管控式大数据安全架构？ ,与传统数据安全相比，大数据安全有什么不同,如何建立完善的大数据安全体系,结束语","企业安全,数据安全"
+2017-04-10,http://www.freebuf.com/vuls/131586.html," Word曝0day漏洞：无需启用宏，打开文档就自动安装恶意程序 ,漏洞概述,所有Windows和Office版本都受影响,补丁没来，该怎么办？","漏洞,系统安全"
+2017-04-11,http://www.freebuf.com/articles/es/129230.html," 企业安全建设之浅谈办公网安全 ,前言,办公网渗透思路,网络安全,无线安全,终端安全,数据安全,系统安全,其他,建设步骤",企业安全
+2017-04-11,http://www.freebuf.com/articles/terminal/130758.html," 如何用Python批量发现互联网“开放”摄像头 ,第一个“海康威视”：,第二个 “汉邦高科”:",终端安全
+2017-04-11,http://www.freebuf.com/articles/network/130357.html," 浅谈拒绝服务攻击的原理与防御（7）：用Python和C实现syn flood攻击 ,0×01 前言,0×02 python攻击代码,0×03 C语言攻击代码,0×04 结语",网络安全
+2017-04-11,http://www.freebuf.com/news/130334.html," 最新Cybersecurity Ventures网络安全500强，都上榜了哪些新公司？ ,关于Cybersecurity Ventures,Mimecast,KnowBe4,ThreatStack,总结,参考来源",资讯
+2017-04-11,http://www.freebuf.com/news/131659.html," 去年盒子承诺的“普吉”兑现了，今年你想去哪里？ ,    ",资讯
+2017-04-11,http://www.freebuf.com/articles/system/131388.html," Metasploit、powershell之Windows错误系统配置漏洞实战提权 ,0×04 Metasploit下Trusted ServicePaths漏洞的实战利用,0×05“系统服务错误权限配置漏洞”简介,0×06 PowerUp之”系统服务错误权限配置漏洞”的实战利用",系统安全
+2017-04-09,http://www.freebuf.com/news/131278.html," 攻击者正在利用Dimnie窃取数据恶意软件攻击GitHub项目的拥有者 ,Dimnie恶意软件,技术分析,总结",资讯
+2017-04-06,http://www.freebuf.com/news/131295.html," iOS 10.3.1修复的那个WiFi芯片漏洞，也影响到了数百万Android手机 ,无线博通WiFi SoC入侵,Nexus与iOS已发布补丁，其他机型还需等待",资讯
+2017-04-06,http://www.freebuf.com/articles/system/131170.html," 看我如何在渗透测试过程中发现并利用Serv-U漏洞进行操作系统提权 ,进一步利用,操作系统提权,漏洞影响,漏洞报告进程",系统安全
+2017-04-06,http://www.freebuf.com/articles/web/131156.html," 瑞星劫持浏览器主页分析 ,一 现象,二 分析,三 结论","WEB安全,系统安全"
+2017-04-06,http://www.freebuf.com/vuls/131335.html," Java AMF3曝远程代码执行漏洞 ,漏洞概述,漏洞描述,漏洞影响,解决方案,目前受影响的供应商信息",漏洞
+2017-04-06,http://www.freebuf.com/jobs/126623.html," 太平保险集团共享中心信息安全岗位招聘 ,岗位名称：安全设备与软件管理——基础系统安全管理,岗位名称：应用安全管理——安全日志管理,岗位名称：应用安全管理-应用安全漏洞研究,岗位名称：应用安全管理-应用系统安全流程管理,岗位名称：应用安全管理-应用系统渗透测试,岗位名称：应用安全管理——应用系统源代码安全测试,岗位名称：终端安全管理",招聘
+2017-04-07,http://www.freebuf.com/articles/terminal/130992.html," 芯片安全漫谈：内置加密芯片的金立M6，真的是“最安全”的手机吗？ ,究竟是怎样一颗芯片？,这种安全设计真的好吗？,安全只是系统的组成部分,加密？那不是应该的吗？,什么样的芯片设计是安全的？","专题,数据安全"
+2017-04-07,http://www.freebuf.com/articles/system/131077.html," 【思路分享】如何在Win下查杀Linux恶意文件 ,一、下面以Debian为例，介绍一下linux下创建nfs共享的方法：,三、使用杀软件进行查杀",系统安全
+2017-04-07,http://www.freebuf.com/sectool/131201.html," 如何使用Ruby构建FTP密码破解器 ,何为暴力攻击？,构建属于自己的FTP密码破解器,暴力攻击测试,总结",工具
+2017-04-07,http://www.freebuf.com/geek/131151.html," 八百元八核的服务器？二手服务器（工作站）搭建指南（下） ,1、主板（含准系统）通览,2、LGA1366详述,3、LGA2011（含V1、V3）详述,4、笔者常用配置单介绍,5、800元8核搭建实战,结语",极客
+2017-04-07,http://www.freebuf.com/news/131364.html," 任性！三星产品操作系统Tizen被曝存在40多个0day漏洞 ,“最糟糕代码”产生的漏洞能远程劫持三星设备,可向Tizen系统中植入任意恶意代码,三星公司的态度","漏洞,资讯"
+2017-04-07,http://www.freebuf.com/news/131406.html," 外媒：来自中国的神秘力量？APT10组织攻击多国MSP供应商和美国对外贸易委员会 ,Operation Cloud Hopper,Operation TradeSecret",资讯
+2017-04-08,http://www.freebuf.com/articles/system/131188.html," 提高Linux安全性：14项检查建立安全的Linux服务器 ,1 – 记录主机信息 ,2 – BIOS保护,3 – 硬盘加密,4 – 磁盘保护,5 – 锁定引导目录,6 – 禁用USB存储设备,7 – 系统更新,8 – 检查已安装的软件包,9 – 检查打开的端口,10 – 增强SSH的安全性,11 – 启用SELinux,12 – 网络参数,13 – 密码政策",系统安全
+2017-04-08,http://www.freebuf.com/news/131344.html," 网络悍匪劫持巴西网银长达5小时，数百万用户中招 ,攻击的5小时里发生了什么事情？,钓鱼成功率极高",资讯
+2017-04-09,http://www.freebuf.com/news/131216.html," “无文件”恶意软件的威力：悄无声息一夜之间从ATM机中窃取80万美元 ,研究人员介绍ATM攻击,精准的物理入侵","终端安全,资讯"
+2017-04-06,http://www.freebuf.com/sectool/131165.html," Linux下密码抓取神器mimipenguin发布 ,项目地址,使用实例",工具
+2017-04-02,http://www.freebuf.com/articles/database/130914.html, Chrome浏览器上显示绿色标识，你就安全了吗？ ,数据安全
+2017-04-03,http://www.freebuf.com/sectool/130199.html," 在线恶意软件和URL分析集成框架 – MalSub ,依赖和使用,服务模块",工具
+2017-04-04,http://www.freebuf.com/articles/web/130603.html," 看我如何窃取Messenger.com用户登录认证随机数并获得15000美元漏洞赏金 ,Messenger.com网站中添加的Facebook的登录机制,研究如何窃取用户安全随机数,修复措施,漏洞报送进程",WEB安全
+2017-04-04,http://www.freebuf.com/sectool/130560.html," Weevely命令传输分析 ,前言,混淆与解码,代码传递,总结",工具
+2017-04-05,http://www.freebuf.com/articles/database/130521.html," 那些年我们一起守护的“密” ,0×00 前言,0×01 加密技术基础,0×02 加密技术分类,0×03 对称加密,0×04 非对称加密,0×06 混合加密,0×07 编码OR加密,0×08加密技术的脆弱点,写在最后","专题,数据安全"
+2017-04-05,http://www.freebuf.com/articles/others-articles/130622.html, 关于39美刀的八大热门在线黑客学习课程合集说明 ,"FreeBuf公开课,其他"
+2017-04-05,http://www.freebuf.com/articles/system/130899.html, “简易下水道”：偷跑流量恶意软件分析 ,"系统安全,网络安全"
+2017-04-05,http://www.freebuf.com/jobs/130856.html," 绿盟科技招聘安全技术经理 ,安全技术经理（15-20K）",招聘
+2017-04-05,http://www.freebuf.com/fevents/131206.html," 2017中国网络安全技术对抗赛，FreeBuf全程媒体支持 ,响应热点主题,真实安全场景,国内最高规格赛事,优厚奖励,大赛日程",活动
+2017-04-05,http://www.freebuf.com/articles/web/130004.html," 学点算法搞安全之SVM ,前言,规则VS算法,scikit-learn,SVM支持向量机,监督学习与无监督学习,监督学习的一般步骤,数据搜集&数据清洗,特征化,数据打标,数据拆分,数据训练,模型验证,异常数据,总结","WEB安全,其他"
+2017-04-05,http://www.freebuf.com/news/131128.html, Android系统20万美元入侵计划无人问津，研究人员称奖金太少 ,资讯
+2017-04-06,http://www.freebuf.com/articles/wireless/130355.html," 基于Wifipineapple对无线安全情况的综合性调查与研究 ,引言,1. 模拟出“钓鱼 Wi-Fi ”进行数据采集及实际操作实验,2 “钓鱼Wi-Fi”原理的模拟,3. 对市区内各热点安全性的实地调查,4. 对本次活动的总结,5. 提出建议,6. 待改进的地方,结语,鸣谢",无线安全

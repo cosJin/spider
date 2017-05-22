@@ -1,0 +1,2468 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Material mp-54 </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--    <meta name="viewport" content="user-scalable = no">
+ -->
+ <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name="keywords" content="Materials Design, Materials Database, Materials Information, Materials Tools" />
+  <meta name="description" content="The Materials Project's mission is to accelerate the the discovery of new technological materials through advanced scientific computing and innovative design tools." />
+  <link rel="shortcut icon" href='/static/images/favicon.00f51d402f3d.png' />
+  <link rel="stylesheet" href='/static/stylesheets/less/compiled/nucleus.83bdc218c831.css' charset="utf-8">
+  <link rel="stylesheet" href='/static/stylesheets/less/compiled/app.949248d0d488.css' charset="utf-8">
+<script type="text/javascript">
+if (!window.console) window.console = {};
+if (!window.console.log) window.console.log = function () {};
+</script>
+
+
+
+  <script src="/static/components/requirejs/require.a0fb07562cea.js" data-main="/static/js/dist/config.e1ae416de44e.js"></script>
+  <script type="text/javascript">
+  window.onload = function () {
+    require(["base"], function () {
+          window.PATH = "/static/js/redesign/views/";
+          window.STATIC_URL = "/static/";
+          window.GROUPS = JSON.parse("[]");
+          window.SANDBOX = "core";
+        
+  require(["Material"],
+  function(Material){
+    $(document).ready(function(){
+      window.Material = new Material("mp-54", "Co")
+    });
+  })
+
+    });
+  };
+  </script>
+
+
+
+<script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26097776-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+</script>
+
+</head>
+<body>
+  
+  <header>
+  
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="navbar-inner">  
+     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </a>
+    <div class="nav-collapse">
+      <a class="brand" href="/"><img src="/static/images/Logo/Mp-logo-v5.ad467cf84f15.png"></a>
+      <ul class="nav pull-right" role="navigation"> 
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li class=dropdown>
+          <a data-toggle=dropdown role="button" class="dropdown-toggle" href="#">About <b class="caret"></b></a>  
+          <ul class="dropdown-menu">
+            <li role="presentation">
+              <a href="/about">About</a>
+            </li>
+            <li role="presentation">
+              <a class="" href="https://discuss.materialsproject.org" target="_blank">
+  Forum
+</a>
+
+           </li>
+            <li role="presentation">
+              <a href="/press">Press</a>
+            </li>
+            <li role="presentation">
+              <a href="/references">Publications</a>
+            </li>
+            <li role="presentation">
+              <a href="/citing">Citing</a>
+            </li>
+            <li role="presentation">
+              <a href="/infrastructure">Infrastructure</a>
+            </li>
+          </ul>
+        </li>
+
+      
+        
+          
+<li class="dropdown">
+  <a data-toggle=dropdown role="button" class="dropdown-toggle" href="#">Apps <b class="caret"></b></a>  
+    
+  <ul class="dropdown-menu">
+    <li role="presentation">
+      <a href="/#search/materials/">Materials Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#search/batteries/">Battery Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/xtaltoolkit">Crystal Toolkit</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/structurepredictor">Structure Predictor</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/phasediagram/">Phase Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/pourbaixdiagram">Pourbaix Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/reactioncalculator">Reaction Calculator</a>
+    </li>
+    <li role="presentation">
+      <a href="/#search/porous/">Nanoporous Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#search/molecules/">Molecules Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/rfbdashboard/">RFB Dashboard</a>
+    </li>
+  </ul>
+</li>
+
+        
+      
+
+        <li class="dropdown">
+  <a data-toggle=dropdown role="button" class="dropdown-toggle" href="#">Documentation <b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li role="presentation">
+      <a href="/docs/api">API</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/calculations">Calculations Guide</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/phasediagram">Phase Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/pourbaixdiagram">Pourbaix Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/battery">Battery Search</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/rxncalculator">Reaction Calculator</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/xtaltoolkit">Crystal Toolkit</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/structurepredictor">Structure Predictor</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/nanoporous">Nanoporous Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/molecules">Molecules Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/rfbdashboard">RFB Dashboard</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/error_checking">Error Checking</a>
+    </li>
+    <li role="separator" class="divider"
+        style="border-bottom: 1px solid #6F6F6F;"></li>
+    <li role="presentation">
+      <a href="//materialsproject.org/wiki">Wiki</a>
+    </li>
+  </ul>
+</li>
+
+        <li>
+        <li>
+          <a href="/open">API</a>
+        </li>
+        
+        <li>
+          <a href="https://www.youtube.com/playlist?list=PLTjFYVNE7LTjHJwV994iQHS-bIkh3UXKJ"
+             class="nav-tutorials-link yt-icon-youtube-play">
+            Tutorials
+          </a>
+        </li>
+        <li>
+          <a href="/dashboard" data-icon="&gt;" class="icon"> Dashboard</a>
+        </li>
+        <li>
+          <a href="/janrain/logout" ><i title="logout" class="icon-logout"></i></a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </header>
+  
+  
+<div class="container">
+	<div class="detail" id="material">
+		<div class="row detail-header">
+			<span class="detail-section">
+				<h5><small>material</small></h5>
+				<h4>Co</h4>
+			</span>
+			<span class="vertical-line"></span>
+			<span class="detail-section">
+				<h5 ><small>ID:</small></h5>
+				<h4 >mp-54</h4>
+			</span>
+			<span class="vertical-line"></span>
+			
+  
+
+  <span class="detail-section">
+		<h5><small>DOI:</small></h5>
+
+    <h4>
+      10.17188/1263614
+      <button id="doi-bibtex-copy" title="Copy BibTex Citation"
+              data-clipboard-text="@misc{osti_1263614,
+    author = &quot;Persson, Kristin&quot;,
+    title = &quot;Materials Data on Co (SG:194) by Materials Project&quot;,
+    abstractNote = &quot;Computed materials data using density functional theory calculations. These calculations determine the electronic structure of bulk materials by solving approximations to the Schrodinger equation. For more information, see https://materialsproject.org/docs/calculations&quot;,
+    doi = &quot;10.17188/1263614&quot;,
+    place = &quot;United States&quot;,
+    year = &quot;2016&quot;,
+    month = &quot;2&quot;,
+    note = &quot;An optional note&quot;
+}
+"
+              data-toggle="modal" href="#doi-bibtex"
+              class="btn btn-small btn-primary pull-right"
+              style="margin-left: 10px; margin-top: -5px;">
+        <span class="typcn typcn-download"></span>
+      </button>
+    </h4>
+
+
+	</span>
+	<span class="vertical-line"></span>
+
+  <div id="doi-bibtex" class="modal hide fade">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h3>BibTeX Citation</h3>
+    </div>
+    <div class='modal-body'>
+      <textarea id="doi-bibtex-text">@misc{osti_1263614,
+    author = &quot;Persson, Kristin&quot;,
+    title = &quot;Materials Data on Co (SG:194) by Materials Project&quot;,
+    abstractNote = &quot;Computed materials data using density functional theory calculations. These calculations determine the electronic structure of bulk materials by solving approximations to the Schrodinger equation. For more information, see https://materialsproject.org/docs/calculations&quot;,
+    doi = &quot;10.17188/1263614&quot;,
+    place = &quot;United States&quot;,
+    year = &quot;2016&quot;,
+    month = &quot;2&quot;,
+    note = &quot;An optional note&quot;
+}
+</textarea>
+    </div>
+  </div>
+
+
+  <span class="detail-section pull-right">
+    <button class="btn btn-primary" id="toggle-guides">
+      <span class="icon" data-icon="0"></span>
+      <span class="text">Show Help Guides</span>
+    </button>
+  </span>
+
+		</div>
+		
+<div class="container material-nav">
+  <ul class="inline">
+    
+      <li><a href="#electronic-structure">Electronic Structure</a></li>
+    
+    <li><a href="#xrd-panel">X-Ray Diffraction</a></li>
+    
+      <li><a href="#substrates">Substrates</a></li>
+    
+    
+      <li><a href="#surfaces">Surfaces</a></li>
+    
+    
+      <li><a href="#elastic-tensor">Elasticity</a></li>
+    
+    
+    
+    <li><a href="#calculation-summary">Calculation Summary</a></li>
+    
+    <li><a href="#snl">Provenance/Citation</a></li>
+  </ul>
+</div>
+<div class="row">
+  <div class="span9">
+    <div class="row">
+      <div class="span6">
+        <div id="jsmol"></div>
+        
+
+        <hr class="pull-up" />
+          <button class="btn btn-primary" id="edit-xtal">Edit Crystal</button>
+        
+        
+
+        
+        <div class="pull-down pull-up">
+          <strong>Tags: </strong>
+          
+          
+          <span class="label-bg tag">
+            Cobalt - eta
+          </span>
+          
+          <span class="label-bg tag">
+            Cobalt - epsilon
+          </span>
+          
+          <span class="label-bg tag">
+            Cobalt - beta - HT
+          </span>
+          
+          <span class="label-bg tag">
+            Cobalt
+          </span>
+          
+        </div>
+        
+
+        <div class="row pull-down">
+          <div class="span4 downloads-dropdown">
+  <select class="multiselect" multiple> 
+    <option>CIF</option>
+    <option>VASP</option>
+    <option>POSCAR</option>
+    <option>CSSR</option>
+    <option>JSON</option>
+  </select>
+  <button disabled id="download-files" class="btn btn-link">
+    <span class="typcn typcn-download"></span>
+    <span class="text">Download</span>
+  </button>
+</div>
+
+          <span class="pull-right" id="a-list-btn-target"></span>
+        </div>
+
+      </div>
+      <div class="span3">
+        <table class="table data table-bordered">
+  <h4>Material Details</h4>
+  <tbody>
+    <tr>
+      <td>
+        <h5>Final Magnetic Moment</h5>
+        <span class="value">
+          3.319 &mu;<sub>B</sub>
+        </span>
+        <p class="help-text">Calculated total magnetic moment for the unit cell within the magnetic ordering provided (see below). Typically accurate to the second digit.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h5>Magnetic Ordering</h5>
+        <span class="value">
+          Unknown
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h5>Formation Energy / Atom</h5>
+        <span class="value">0.000 eV</span>
+        <p class="help-text">
+          Calculated formation energy from the elements normalized to per atom in the unit cell.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h5>Energy Above Hull / Atom</h5>
+        <span class="value">0.000 eV</span>
+        <p class="help-text">
+          The energy of decomposition of this material into the set of most stable materials at this chemical composition, in eV/atom. Stability is tested against all potential chemical combinations that result in the material's composition. For example, a Co2O3 structure would be tested for decomposition against other Co2O3 structures, against Co and O2 mixtures, and against CoO and O2 mixtures.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h5>Density</h5>
+        <span class="value">8.96 g/cm<sup>3</sup></span>
+        <p class="help-text">
+          The calculated bulk crystalline density, typically underestimated due calculated cell volumes overestimated on average by <a href="/docs/error_checking#vol-change">3% (+/- 6%)</a>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h5>Decomposes To</h5>
+        <span class="value">
+          
+          Stable
+          
+        </span>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h5>Band Gap</h5>
+        <span class="value">
+          0.000 eV
+        </span>
+        
+        <p class="help-text">
+          In general, <a href="/docs/calculations#Band_gaps">band gaps</a> computed with common exchange-correlation functionals such as the LDA and <a href="/docs/calculations">GGA</a> are severely underestimated. Typically the disagreement is reported to be ~50% in the literature. Some internal testing by the Materials Project supports these statements; typically, we find that band gaps are underestimated by ~40%. We additionally find that several known insulators are predicted to be metallic.
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+        <table class="table data table-bordered" id="spacegroup">
+          <h4>Space Group</h4>
+          <tbody>
+            <tr><td>
+              <h5>Hermann Mauguin</h5>
+              
+              <a href="http://img.chem.ucl.ac.uk/sgp/large/194az1.htm"
+              class="spacegroup-link fontastic-white-question pull-right"></a>
+              
+              <span class="value">P6<sub>3</sub>/mmc [194]</span>
+            </tr></td>
+            <tr><td>
+              <h5>Hall</h5>
+              <span class="value">-P 6c 2c </span>
+            </tr></td>
+            <tr><td>
+              <h5>Point Group</h5>
+              <span class="value">6/mmm </span>
+            </tr></td>
+            <tr><td>
+              <h5>Crystal System</h5>
+              <span class="value">hexagonal</span>
+            </tr></td>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    
+      
+        <div class="static-mode row pull-down" id="electronic-structure">
+  <div class="span9 panel">
+    <div class="row">
+      <div class="box-header span9">
+        <div class="row">
+          <div class="span6">
+            <h4>Band Structure</h4>
+          </div>
+          <div class="span2">
+            <h5>Density of States</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row panel-body">
+      <div class="span9">
+        <div id="bandstructure-plot">
+          <img src="/electronic_structure/bandstructure/plot/mp-54" />
+        </div>
+        <div id="dos-graph">
+          <img src="/electronic_structure/dos/plot/mp-54" />
+        </div>
+      </div>
+    </div>
+    <div class="row panel-body">
+      <div class="span6">
+        <div class="alert">
+          <button type="button" class="close" data-dismiss="alert">&times;</button>
+          <strong>Warning!</strong>
+          Semi-local DFT tends to severely underestimate bandgaps. Please see the <a href="https://www.materialsproject.org/wiki/index.php/Calculations_Manual#Accuracy_of_Band_Structures">wiki</a> for more info.
+        </div>
+      </div>
+      <div class="span3">
+        <p class="pull-down text-center">sign indicates spin &uarr; &darr;</p>
+      </div>
+    </div>
+    <div class="row panel-body">
+      <div class="text-center">
+        <button class="btn btn-primary make-interactive">Interactive plots</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+    
+
+    <div class="row" id="xrd-panel">
+  <div class="span9">
+    <div class="row">
+      <div class="span3">
+        <ul class="select-radiation">
+          <span class="icon fontastic-noun-project-13591"></span>
+          <li class="active">Cu</li>
+          <li>Ag</li>
+          <li>Mo</li>
+          <li>Fe</li>
+        </ul>
+      </div>
+      <div class="span2 offset4">
+        <div id="xrd-warning" data-content="calculated XRD tends to underestimate lattice parameters" class="btn btn-small btn-warning pull-down typcn typcn-warning"></div>
+        <button class="btn-primary btn-small btn pull-right pull-down xrd-download">
+          <span class="typcn typcn-download"></span>
+           XRD JSON
+        </button>
+      </div>
+    </div>
+    <section id="diffraction">
+      <div class="panel" id="xrd-graph"></div>
+      <p class="help-text">
+        Calculated powder diffraction pattern; note that peak spacings may be affected due to inaccuracies in calculated cell volume, which is typically overestimated on average by <a href="/docs/error_checking#vol-change">3% (+/- 6%)</a>
+      </p>
+    </section>
+  </div>
+</div>
+
+
+    <hr/>
+
+    
+
+    
+      <div class="row pull-down" id="substrates">
+  <div class="span9">
+    <h4> Substrates </h4>
+    Reference for minimal coincident interface area (MCIA) and elastic energy:
+    <a href="javascript:void(0)"
+       class="fontastic-book book btn"
+       data-toggle="popover" data-placement="bottom"
+       data-html="true"
+       data-content="Ding H, Dwaraknath SS, Garten L, Ndione P, Ginley D, Persson KA. Computational Approach for Epitaxial Polymorph Stabilization through Substrate Selection. <em>ACS Appl. Mater. Interfaces</em> <strong>8</strong>: 13086 (2016) | <a href='http://dx.doi.org/10.1021/acsami.6b01630' target='_blank'>doi:10.1021/acsami.6b01630</a>." data-title="citation">
+    </a>
+    <br>
+    substrate orientation:
+    <select name="orient" style="width:80px;">
+      <option value="any">any</option>
+      
+        <option value="1 0 -1">1 0 -1</option>
+      
+        <option value="1 0 0">1 0 0</option>
+      
+        <option value="1 0 1">1 0 1</option>
+      
+        <option value="1 1 1">1 1 1</option>
+      
+        <option value="1 1 0">1 1 0</option>
+      
+        <option value="0 0 1">0 0 1</option>
+      
+        <option value="1 1 -1">1 1 -1</option>
+      
+        <option value="0 1 0">0 1 0</option>
+      
+        <option value="0 1 1">0 1 1</option>
+      
+    </select>
+    
+    <div class="row">
+      <div class="span9">
+        
+<table class="substrates table table-bordered table-striped">
+  <thead>
+    <th>substrate material</th>
+    <th>substrate orientation</th>
+    <th>film orientation</th>
+    
+      <th>elastic energy [meV]</th>
+    
+    <th>MCIA<sup>&dagger;</sup> [&#8491;<sup>2</sup>]</th>
+  </thead>
+  <tbody>
+    
+      <tr>
+        <td>LiF
+          (<a href="/materials/mp-1138"
+              target="_blank">mp-1138</a>)
+        </td>
+        <td><1 1 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.000</td>
+        
+        <td>86.7</td>
+      </tr>
+    
+      <tr>
+        <td>LiTaO<sub>3</sub>
+          (<a href="/materials/mp-3666"
+              target="_blank">mp-3666</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.001</td>
+        
+        <td>70.4</td>
+      </tr>
+    
+      <tr>
+        <td>GaSe
+          (<a href="/materials/mp-1943"
+              target="_blank">mp-1943</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.001</td>
+        
+        <td>37.9</td>
+      </tr>
+    
+      <tr>
+        <td>NaCl
+          (<a href="/materials/mp-22862"
+              target="_blank">mp-22862</a>)
+        </td>
+        <td><1 1 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.006</td>
+        
+        <td>167.9</td>
+      </tr>
+    
+      <tr>
+        <td>GdScO<sub>3</sub>
+          (<a href="/materials/mp-5690"
+              target="_blank">mp-5690</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><1 1 0></td>
+        
+          <td>0.032</td>
+        
+        <td>139.8</td>
+      </tr>
+    
+      <tr>
+        <td>KCl
+          (<a href="/materials/mp-23193"
+              target="_blank">mp-23193</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><1 0 0></td>
+        
+          <td>0.033</td>
+        
+        <td>232.0</td>
+      </tr>
+    
+      <tr>
+        <td>KCl
+          (<a href="/materials/mp-23193"
+              target="_blank">mp-23193</a>)
+        </td>
+        <td><1 1 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.033</td>
+        
+        <td>70.4</td>
+      </tr>
+    
+      <tr>
+        <td>GdScO<sub>3</sub>
+          (<a href="/materials/mp-5690"
+              target="_blank">mp-5690</a>)
+        </td>
+        <td><0 1 0></td>
+        <td><1 0 0></td>
+        
+          <td>0.035</td>
+        
+        <td>221.9</td>
+      </tr>
+    
+      <tr>
+        <td>NdGaO<sub>3</sub>
+          (<a href="/materials/mp-3196"
+              target="_blank">mp-3196</a>)
+        </td>
+        <td><1 0 1></td>
+        <td><1 0 1></td>
+        
+          <td>0.036</td>
+        
+        <td>160.3</td>
+      </tr>
+    
+      <tr>
+        <td>NaCl
+          (<a href="/materials/mp-22862"
+              target="_blank">mp-22862</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><1 0 0></td>
+        
+          <td>0.039</td>
+        
+        <td>161.4</td>
+      </tr>
+    
+      <tr>
+        <td>LiNbO<sub>3</sub>
+          (<a href="/materials/mp-3731"
+              target="_blank">mp-3731</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.039</td>
+        
+        <td>70.4</td>
+      </tr>
+    
+      <tr>
+        <td>SiO<sub>2</sub>
+          (<a href="/materials/mp-6930"
+              target="_blank">mp-6930</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.047</td>
+        
+        <td>21.7</td>
+      </tr>
+    
+      <tr>
+        <td>SiO<sub>2</sub>
+          (<a href="/materials/mp-6930"
+              target="_blank">mp-6930</a>)
+        </td>
+        <td><1 1 1></td>
+        <td><1 0 0></td>
+        
+          <td>0.051</td>
+        
+        <td>211.8</td>
+      </tr>
+    
+      <tr>
+        <td>LaF<sub>3</sub>
+          (<a href="/materials/mp-905"
+              target="_blank">mp-905</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.051</td>
+        
+        <td>135.4</td>
+      </tr>
+    
+      <tr>
+        <td>CdWO<sub>4</sub>
+          (<a href="/materials/mp-19387"
+              target="_blank">mp-19387</a>)
+        </td>
+        <td><0 1 1></td>
+        <td><1 1 0></td>
+        
+          <td>0.064</td>
+        
+        <td>122.3</td>
+      </tr>
+    
+      <tr>
+        <td>KTaO<sub>3</sub>
+          (<a href="/materials/mp-3614"
+              target="_blank">mp-3614</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><1 0 0></td>
+        
+          <td>0.064</td>
+        
+        <td>80.7</td>
+      </tr>
+    
+      <tr>
+        <td>ZnO
+          (<a href="/materials/mp-2133"
+              target="_blank">mp-2133</a>)
+        </td>
+        <td><1 0 1></td>
+        <td><1 0 1></td>
+        
+          <td>0.073</td>
+        
+        <td>137.4</td>
+      </tr>
+    
+      <tr>
+        <td>ZnSe
+          (<a href="/materials/mp-1190"
+              target="_blank">mp-1190</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><1 1 0></td>
+        
+          <td>0.073</td>
+        
+        <td>139.8</td>
+      </tr>
+    
+      <tr>
+        <td>BN
+          (<a href="/materials/mp-984"
+              target="_blank">mp-984</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.078</td>
+        
+        <td>5.4</td>
+      </tr>
+    
+      <tr>
+        <td>Ga<sub>2</sub>O<sub>3</sub>
+          (<a href="/materials/mp-886"
+              target="_blank">mp-886</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><1 0 0></td>
+        
+          <td>0.079</td>
+        
+        <td>90.8</td>
+      </tr>
+    
+      <tr>
+        <td>BaTiO<sub>3</sub>
+          (<a href="/materials/mp-5986"
+              target="_blank">mp-5986</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><1 0 0></td>
+        
+          <td>0.082</td>
+        
+        <td>80.7</td>
+      </tr>
+    
+      <tr>
+        <td>NdGaO<sub>3</sub>
+          (<a href="/materials/mp-3196"
+              target="_blank">mp-3196</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><0 0 1></td>
+        
+          <td>0.087</td>
+        
+        <td>303.3</td>
+      </tr>
+    
+      <tr>
+        <td>GaAs
+          (<a href="/materials/mp-2534"
+              target="_blank">mp-2534</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><1 1 0></td>
+        
+          <td>0.088</td>
+        
+        <td>139.8</td>
+      </tr>
+    
+      <tr>
+        <td>Ge<sub>3</sub>(BiO<sub>3</sub>)<sub>4</sub>
+          (<a href="/materials/mp-23560"
+              target="_blank">mp-23560</a>)
+        </td>
+        <td><1 1 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.090</td>
+        
+        <td>195.0</td>
+      </tr>
+    
+      <tr>
+        <td>BaTiO<sub>3</sub>
+          (<a href="/materials/mp-5986"
+              target="_blank">mp-5986</a>)
+        </td>
+        <td><1 0 1></td>
+        <td><1 1 0></td>
+        
+          <td>0.096</td>
+        
+        <td>69.9</td>
+      </tr>
+    
+      <tr>
+        <td>TiO<sub>2</sub>
+          (<a href="/materials/mp-390"
+              target="_blank">mp-390</a>)
+        </td>
+        <td><1 1 1></td>
+        <td><1 0 0></td>
+        
+          <td>0.100</td>
+        
+        <td>161.4</td>
+      </tr>
+    
+      <tr>
+        <td>CaCO<sub>3</sub>
+          (<a href="/materials/mp-3953"
+              target="_blank">mp-3953</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><0 0 1></td>
+        
+          <td>0.101</td>
+        
+        <td>86.7</td>
+      </tr>
+    
+      <tr>
+        <td>CaCO<sub>3</sub>
+          (<a href="/materials/mp-3953"
+              target="_blank">mp-3953</a>)
+        </td>
+        <td><1 1 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.102</td>
+        
+        <td>151.6</td>
+      </tr>
+    
+      <tr>
+        <td>LiNbO<sub>3</sub>
+          (<a href="/materials/mp-3731"
+              target="_blank">mp-3731</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><0 0 1></td>
+        
+          <td>0.103</td>
+        
+        <td>222.1</td>
+      </tr>
+    
+      <tr>
+        <td>GaSe
+          (<a href="/materials/mp-1943"
+              target="_blank">mp-1943</a>)
+        </td>
+        <td><1 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.110</td>
+        
+        <td>205.8</td>
+      </tr>
+    
+      <tr>
+        <td>AlN
+          (<a href="/materials/mp-661"
+              target="_blank">mp-661</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><1 0 0></td>
+        
+          <td>0.112</td>
+        
+        <td>80.7</td>
+      </tr>
+    
+      <tr>
+        <td>TbScO<sub>3</sub>
+          (<a href="/materials/mp-31119"
+              target="_blank">mp-31119</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><1 1 0></td>
+        
+          <td>0.114</td>
+        
+        <td>139.8</td>
+      </tr>
+    
+      <tr>
+        <td>MoSe<sub>2</sub>
+          (<a href="/materials/mp-1634"
+              target="_blank">mp-1634</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.115</td>
+        
+        <td>37.9</td>
+      </tr>
+    
+      <tr>
+        <td>WSe<sub>2</sub>
+          (<a href="/materials/mp-1821"
+              target="_blank">mp-1821</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.116</td>
+        
+        <td>37.9</td>
+      </tr>
+    
+      <tr>
+        <td>Ga<sub>2</sub>O<sub>3</sub>
+          (<a href="/materials/mp-886"
+              target="_blank">mp-886</a>)
+        </td>
+        <td><1 0 -1></td>
+        <td><1 0 1></td>
+        
+          <td>0.116</td>
+        
+        <td>114.5</td>
+      </tr>
+    
+      <tr>
+        <td>AlN
+          (<a href="/materials/mp-661"
+              target="_blank">mp-661</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.118</td>
+        
+        <td>102.9</td>
+      </tr>
+    
+      <tr>
+        <td>TeO<sub>2</sub>
+          (<a href="/materials/mp-2125"
+              target="_blank">mp-2125</a>)
+        </td>
+        <td><1 1 1></td>
+        <td><1 1 0></td>
+        
+          <td>0.118</td>
+        
+        <td>104.8</td>
+      </tr>
+    
+      <tr>
+        <td>ZnO
+          (<a href="/materials/mp-2133"
+              target="_blank">mp-2133</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.118</td>
+        
+        <td>37.9</td>
+      </tr>
+    
+      <tr>
+        <td>ZrO<sub>2</sub>
+          (<a href="/materials/mp-2858"
+              target="_blank">mp-2858</a>)
+        </td>
+        <td><1 1 1></td>
+        <td><1 0 1></td>
+        
+          <td>0.120</td>
+        
+        <td>103.0</td>
+      </tr>
+    
+      <tr>
+        <td>Al
+          (<a href="/materials/mp-134"
+              target="_blank">mp-134</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><1 0 0></td>
+        
+          <td>0.122</td>
+        
+        <td>80.7</td>
+      </tr>
+    
+      <tr>
+        <td>CsI
+          (<a href="/materials/mp-614603"
+              target="_blank">mp-614603</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><1 0 0></td>
+        
+          <td>0.123</td>
+        
+        <td>262.2</td>
+      </tr>
+    
+      <tr>
+        <td>BN
+          (<a href="/materials/mp-984"
+              target="_blank">mp-984</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><0 0 1></td>
+        
+          <td>0.125</td>
+        
+        <td>97.5</td>
+      </tr>
+    
+      <tr>
+        <td>GdScO<sub>3</sub>
+          (<a href="/materials/mp-5690"
+              target="_blank">mp-5690</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.127</td>
+        
+        <td>189.6</td>
+      </tr>
+    
+      <tr>
+        <td>Al
+          (<a href="/materials/mp-134"
+              target="_blank">mp-134</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><1 1 0></td>
+        
+          <td>0.137</td>
+        
+        <td>69.9</td>
+      </tr>
+    
+      <tr>
+        <td>Ge
+          (<a href="/materials/mp-32"
+              target="_blank">mp-32</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><1 1 0></td>
+        
+          <td>0.138</td>
+        
+        <td>139.8</td>
+      </tr>
+    
+      <tr>
+        <td>NdGaO<sub>3</sub>
+          (<a href="/materials/mp-3196"
+              target="_blank">mp-3196</a>)
+        </td>
+        <td><1 0 0></td>
+        <td><1 0 1></td>
+        
+          <td>0.146</td>
+        
+        <td>217.5</td>
+      </tr>
+    
+      <tr>
+        <td>MgF<sub>2</sub>
+          (<a href="/materials/mp-1249"
+              target="_blank">mp-1249</a>)
+        </td>
+        <td><0 0 1></td>
+        <td><1 0 0></td>
+        
+          <td>0.149</td>
+        
+        <td>111.0</td>
+      </tr>
+    
+      <tr>
+        <td>Ni
+          (<a href="/materials/mp-23"
+              target="_blank">mp-23</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><0 0 1></td>
+        
+          <td>0.155</td>
+        
+        <td>86.7</td>
+      </tr>
+    
+      <tr>
+        <td>Ga<sub>2</sub>O<sub>3</sub>
+          (<a href="/materials/mp-886"
+              target="_blank">mp-886</a>)
+        </td>
+        <td><1 1 0></td>
+        <td><1 0 0></td>
+        
+          <td>0.156</td>
+        
+        <td>221.9</td>
+      </tr>
+    
+      <tr>
+        <td>BN
+          (<a href="/materials/mp-984"
+              target="_blank">mp-984</a>)
+        </td>
+        <td><1 0 1></td>
+        <td><0 0 1></td>
+        
+          <td>0.160</td>
+        
+        <td>59.6</td>
+      </tr>
+    
+  </tbody>
+</table>
+
+      </div>
+    </div>
+    <div>Up to 50 entries displayed.</div>
+    <div><sup>&dagger;</sup>minimal coincident interface area.</div>
+  </div>
+</div>
+
+    
+
+    
+      
+
+<div class="row pull-down" id="surfaces">
+  <div class="span9">
+    <h4> Surfaces </h4>
+    Reference for surface energies and properties:
+    <a href="javascript:void(0)"
+       class="fontastic-book book btn"
+       data-toggle="popover" data-placement="bottom"
+       data-html="true"
+       data-content='R. Tran, Z. Xu, B. Radhakrishnan, D. Winston, W. Sun, K. A. Persson, and S. P. Ong. "Surface Energies of Elemental Crystals," Scientific Data, <em>Accepted</em>.<br><a target="_blank" href="/docs/surfaces">glossary of terms</a>'
+       data-title="citation">
+    </a>
+    <a href="http://crystalium.materialsvirtuallab.org/"
+       target="_blank" class="btn"
+       style="float: right; font-weight: normal">
+      <img src="/static/images/Logo/mavrl_sm.fdb16e50559f.png"
+           style="height: 1em">
+      Periodic Table of Wulff Shapes
+    </a>
+
+    <div class="row">
+      <div class="span4">
+        <div class="surfaces-table table-responsive">
+          <table class='table table-bordered table-striped table-hover fixed'>
+            <thead>
+              <th style="width:28%"> Miller Indices<br>
+                <span class="units"">
+                  (hklm)
+                </span>
+              </th>
+              <th style="width:32%"> Surface Energy<br>
+                <span class="units"">
+                  (J/m<sup>2</sup>, eV/&#8491;<sup>2</sup>)
+                </span>
+              </th>
+              <th> Area Fraction </th>
+              <th style="width:21%"> Structure <br> (CIF) </th>
+            </thead>
+            <tbody>
+              
+                <tr>
+                  <td>
+                    (0001)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[0,0,0,1]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.11,
+                    0.13
+                  </td>
+                  <td>
+                    0.19
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[0, 0, 0, 1]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (10<span style='text-decoration: overline;'>1</span>0)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[1,0,-1,0]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.26,
+                    0.14
+                  </td>
+                  <td>
+                    0.27
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[1, 0, -1, 0]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (10<span style='text-decoration: overline;'>1</span>1)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[1,0,-1,1]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.40,
+                    0.15
+                  </td>
+                  <td>
+                    0.32
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[1, 0, -1, 1]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (11<span style='text-decoration: overline;'>2</span>0)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[1,1,-2,0]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.46,
+                    0.15
+                  </td>
+                  <td>
+                    0.06
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[1, 1, -2, 0]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (21<span style='text-decoration: overline;'>3</span>0)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[2,1,-3,0]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.46,
+                    0.15
+                  </td>
+                  <td>
+                    0.00
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[2, 1, -3, 0]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (10<span style='text-decoration: overline;'>1</span>2)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[1,0,-1,2]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.54,
+                    0.16
+                  </td>
+                  <td>
+                    0.09
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[1, 0, -1, 2]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (21<span style='text-decoration: overline;'>3</span>1)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[2,1,-3,1]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.57,
+                    0.16
+                  </td>
+                  <td>
+                    0.01
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[2, 1, -3, 1]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (22<span style='text-decoration: overline;'>4</span>1)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[2,2,-4,1]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.58,
+                    0.16
+                  </td>
+                  <td>
+                    0.00
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[2, 2, -4, 1]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (2<span style='text-decoration: overline;'>1</span><span style='text-decoration: overline;'>1</span>2)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[2,-1,-1,2]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.59,
+                    0.16
+                  </td>
+                  <td>
+                    0.06
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[2, -1, -1, 2]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (11<span style='text-decoration: overline;'>2</span>1)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[1,1,-2,1]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.62,
+                    0.16
+                  </td>
+                  <td>
+                    0.00
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[1, 1, -2, 1]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (21<span style='text-decoration: overline;'>3</span>2)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[2,1,-3,2]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.63,
+                    0.16
+                  </td>
+                  <td>
+                    0.00
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[2, 1, -3, 2]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+                <tr>
+                  <td>
+                    (20<span style='text-decoration: overline;'>2</span>1)
+                    
+                    
+                      <button class="btn btn-mini view-wulff-img"
+                              style="float: right"
+                              data-miller="[2,0,-2,1]">
+                        <span class="typcn typcn-eye-outline"></span>
+                      </button>
+                    
+                  </td>
+                  <td>
+                    2.67,
+                    0.17
+                  </td>
+                  <td>
+                    0.00
+                  </td>
+                  <td>
+                    <a href="/materials/mp-54/surfaces/[2, 0, -2, 1]/cif">
+                      <button class="btn btn-mini typcn typcn-download">
+                      </button>
+                    </a>
+                  </td>
+                </tr>
+              
+            </tbody>
+          </table>
+          
+          <p>Average (area-fraction-weighted) surface energy:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span style="text-decoration: overline;">&gamma;</span> =
+            
+              2.34,
+              0.15
+            
+          </p>
+        </div>
+      </div>
+
+      <div class="span1"></div>
+      <div class="span4 wulff-display" style="position:relative;">
+        <img id="wulff-static-img"
+             style="margin-top:1em;"
+             src="/materials/mp-54/wulff/[0, 0, 0, 1]" />
+        <div class="fontastic-molecule icon rotating hidden"
+             style="position:absolute;top:270px;left:150px"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    
+
+    
+      
+<div class="row pull-down" id="elastic-tensor">
+  <div class="span9">
+    <h4> Elasticity </h4>
+    <div class="row">
+      <div class="span5">
+        Reference for tensor and properties:
+        <a href="javascript:void(0)"
+           class="fontastic-book book btn"
+           data-toggle="popover" data-placement="bottom"
+           data-html="true"
+           data-content="de Jong M, Chen W, Angsten T, Jain A, Notestine R, Gamst A, Sluiter M, Ande CK, van der Zwaag S, Plata JJ, Toher C, Curtarolo S, Ceder G, Persson KA, Asta M. Charting the complete elastic properties of inorganic crystalline compounds. <em>Scientific Data</em> <strong>2</strong>: 150009 (2015) | <a href='http://dx.doi.org/10.1038/sdata.2015.9' target='_blank'>doi:10.1038/sdata.2015.9</a>." data-title="citation">
+        </a>
+        
+      </div>
+      <div class="span3 offset1">
+        <a href="http://progs.coudert.name/elate/mp?query=mp-54"
+           target="_blank" class="btn btn-small"
+           style="float: right; font-weight: normal">
+          <img src="/static/images/elate_poisson_3d_example.4fbf764fea7a.png"
+               style="height: 2em">
+          Visualize with ELATE
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span5">
+        <div class="flip-container">
+          <div class="flipper">
+	    <div class="front">
+	      <div class="matrix">
+                <table  class="table">
+                  <thead>
+                    <th colspan="6" >
+                      <h5 class="text-center">
+                        Stiffness Tensor C<em>ij</em>
+                        <span class="units"">(GPa)</span>
+                      </h5>
+                    </th>
+                  </thead>
+                  <tbody>
+                    
+                      <tr>
+                        
+                          <td>358</td>
+                        
+                          <td>165</td>
+                        
+                          <td>114</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>165</td>
+                        
+                          <td>358</td>
+                        
+                          <td>114</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>114</td>
+                        
+                          <td>114</td>
+                        
+                          <td>409</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>95</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>95</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>96</td>
+                        
+                      </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              <button class="btn btn-small btn-primary"
+                      style="margin: 0 auto; display: block;"
+                      onclick="document.querySelector('#elastic-tensor .flip-container').classList.toggle('flip')">
+                Compliance Tensor S<em>ij</em></button>
+	    </div>
+	    <div class="back">
+	      <div class="matrix">
+                <table  class="table">
+                  <thead>
+                    <th colspan="6" >
+                      <h5 class="text-center">
+                        Compliance Tensor S<em>ij</em>
+                        <span class="units"">(10<sup>-12</sup>Pa<sup>-1</sup>)</span>
+                      </h5>
+                    </th>
+                  </thead>
+                  <tbody>
+                    
+                      <tr>
+                        
+                          <td>3.7</td>
+                        
+                          <td>-1.5</td>
+                        
+                          <td>-0.6</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>-1.5</td>
+                        
+                          <td>3.7</td>
+                        
+                          <td>-0.6</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>-0.6</td>
+                        
+                          <td>-0.6</td>
+                        
+                          <td>2.8</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>10.5</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>10.5</td>
+                        
+                          <td>0</td>
+                        
+                      </tr>
+                    
+                      <tr>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>0</td>
+                        
+                          <td>10.4</td>
+                        
+                      </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+              <button class="btn btn-small btn-primary"
+                      style="margin: 0 auto; display: block;"
+                      onclick="document.querySelector('#elastic-tensor .flip-container').classList.toggle('flip')">
+                Stiffness Tensor C<em>ij</em></button>
+	    </div>
+          </div>
+        </div>
+      </div>
+      <div class="span4">
+        <table class="elastic-table table table-bordered">
+          
+            <tbody>
+              <tr>
+                <td>
+                  <h5>Shear Modulus G<sub>V</sub></h5>
+                  <span class="value">106 GPa</span>
+                </td>
+                <td>
+                  <h5>Bulk Modulus K<sub>V</sub></h5>
+                  <span class="value">212 GPa</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h5>Shear Modulus G<sub>R</sub></h5>
+                  <span class="value">103 GPa</span>
+                </td>
+                <td>
+                  <h5>Bulk Modulus K<sub>R</sub></h5>
+                  <span class="value">212 GPa</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h5>Shear Modulus G<sub>VRH</sub> </h5>
+                  <span class="value">105 GPa</span>
+                </td>
+                <td>
+                  <h5>Bulk Modulus K<sub>VRH</sub></h5>
+                  <span class="value">212 GPa</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h5>Elastic Anisotropy</h5>
+                  <span class="value">0.15</span>
+                </td>
+                <td>
+                  <h5>Poisson's Ratio</h5>
+                  <span class="value">
+                    0.29
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+
+    
+
+    <div class="row pull-down">
+      <div class="span9">
+        <h3 id="calculation-summary">Calculation Summary</h3>
+
+
+  
+    <div id="elasticity-explain">
+      
+        <h4>Elasticity</h4>
+        <a href="/docs/calculations#elasticity"
+           class="btn btn-primary btn-small">
+          Methodology
+        </a>
+      
+    </div>
+  
+
+
+<h4>Structure Optimization</h4>
+<table class="table table-bordered calc-summary-table">
+  <tbody>
+      <tr>
+        <td>
+          <h5>Run Type</h5>
+          <span class="value">GGA </span>
+        </td>
+        <td>
+          <h5>Energy Cutoff </h5>
+          <span class="value">520 eV</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h5># of K-points</h5>
+          <span class="value">56 </span>
+        </td>
+        <td>
+          <h5>U Values</h5>
+          <span class="value">
+            
+              --
+            
+          </span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h5>Pseudopotentials</h5>
+          <span>VASP PAW: </span>
+          <span class="value">Co </span>
+        </td>
+        <td>
+          <h5>Final Energy/Atom</h5>
+          <span class="value">-7.1101 eV</span>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <h5>Corrected Energy</h5>
+
+          <span class="value">
+            -14.2201 eV
+          </span>
+
+          <div class="toggleable-detail">
+            <div>
+              <em><a href="#corrections-eqn" class="show-or-hide">
+                  How do we arrive at this value?</a></em>
+            </div>
+            <div class="shown-or-hidden">
+              <span class="value">-14.2201 eV = -14.2201 eV (uncorrected energy)</span>
+              <div>
+                <em><a href="#corrections-modal" data-toggle="modal">
+                    Definitions of corrections</a></em>
+              </div>
+            </div>
+          </div>
+        </td>
+      </tr>
+  </tbody>
+</table>
+<div id="corrections-modal"class="modal hide fade">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Energy Corrections</h3>
+  </div>
+  <div class='modal-body'>
+    <p>
+      For more detail, pelase see
+      the <a href="/docs/calculations#Total_Energy_Adjustments"> Total
+      Energy Adjustments
+      </a> section of our Calculations Guide.
+    </p>
+    
+      <h4>MPRelaxSet Potcar Correction</h4>
+      <div>Checks that POTCARs are valid within a pre-defined input set. This
+    ensures that calculations performed using different InputSets are not
+    compared against each other.
+
+    Entry.parameters must contain a &quot;potcar_symbols&quot; key that is a list of
+    all POTCARs used in the run. Again, using the example of an Fe2O3 run
+    using Materials Project parameters, this would look like
+    entry.parameters[&quot;potcar_symbols&quot;] = [&#39;PAW_PBE Fe_pv 06Sep2000&#39;,
+    &#39;PAW_PBE O 08Apr2002&#39;].</div>
+    
+      <h4>MP Gas Correction</h4>
+      <div>Correct anion energies to obtain the right formation energies. Note that
+    this depends on calculations being run within the same input set.</div>
+    
+      <h4>MP Anion Correction</h4>
+      <div>Correct gas energies to obtain the right formation energies. Note that
+    this depends on calculations being run within the same input set.</div>
+    
+      <h4>MP Advanced Correction</h4>
+      <div>This class implements the GGA/GGA+U mixing scheme, which allows mixing of
+    entries. Entry.parameters must contain a &quot;hubbards&quot; key which is a dict
+    of all non-zero Hubbard U values used in the calculation. For example,
+    if you ran a Fe2O3 calculation with Materials Project parameters,
+    this would look like entry.parameters[&quot;hubbards&quot;] = {&quot;Fe&quot;: 5.3}
+    If the &quot;hubbards&quot; key is missing, a GGA run is assumed.
+
+    It should be noted that ComputedEntries assimilated using the
+    pymatgen.apps.borg package and obtained via the MaterialsProject REST
+    interface using the pymatgen.matproj.rest package will automatically have
+    these fields populated.</div>
+    
+  </div>
+</div>
+
+  <h4>Detailed input parameters and outputs for all calculations</h4>
+  <ul id='tasks-nav' class="nav nav-pills">
+    <li>Loading...</li>
+  </ul>
+  <div class="toggleable-detail hidden">
+    <div>
+      <em><a href="#corrections-eqn" class="show-or-hide">
+        Why the <strong>bold</strong> text?</a></em>
+    </div>
+    <div class="shown-or-hidden">
+      Tasks (calculations) with <strong>bold</strong> text have the lowest <em>final energy per atom</em> output amongst all tasks with the same task type for this material. These "blessed" tasks are used for higher-level analysis.
+    </div>
+  </div>
+
+
+      </div>
+    </div>
+
+    
+
+    <hr class="pull-down"/>
+
+    <div class="row pull-down">
+      <div class="span9" id="snl">
+        <div>
+  <a data-toggle="modal" href="#history" class="btn">Show JSON History</a>
+
+  <a data-toggle="modal" href="#bibtex" class="btn">Show BibTex Citation</a>
+
+  <a target="_blank" href="/materials/mp-54/bibtex?download=true" class="btn">Download BibTex Citation</a>
+
+  
+  <div id="history"class="modal hide fade">
+    <div class="modal-body">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3>JSON History</h3>
+      </div>
+      <textarea>[
+    {
+        &quot;url&quot;: &quot;http://icsd.fiz-karlsruhe.de/&quot;, 
+        &quot;name&quot;: &quot;Inorganic Crystal Structure Database (ICSD)&quot;, 
+        &quot;description&quot;: {
+            &quot;icsd_id&quot;: 622438
+        }
+    }, 
+    {
+        &quot;url&quot;: &quot;http://cctbx.sourceforge.net/&quot;, 
+        &quot;name&quot;: &quot;Computational Crystallography Toolbox (CCTBX)&quot;, 
+        &quot;description&quot;: {
+            &quot;spacegroup&quot;: {
+                &quot;space_group_id&quot;: 524, 
+                &quot;centering&quot;: &quot;P&quot;, 
+                &quot;icsd_name&quot;: &quot;P 63/m m c&quot;, 
+                &quot;number&quot;: 194, 
+                &quot;cctbx_name&quot;: &quot;P 63/m m c&quot;, 
+                &quot;crystal_system&quot;: &quot;hexagonal&quot;, 
+                &quot;hall&quot;: &quot;-P 6c 2c&quot;
+            }, 
+            &quot;lattice&quot;: {
+                &quot;a&quot;: 2.505, 
+                &quot;c&quot;: 4.07, 
+                &quot;b&quot;: 2.505, 
+                &quot;volume&quot;: 22.12, 
+                &quot;beta&quot;: 90.0, 
+                &quot;lattice_id&quot;: 86628, 
+                &quot;alpha&quot;: 90.0, 
+                &quot;gamma&quot;: 120.0
+            }, 
+            &quot;sites&quot;: [
+                {
+                    &quot;abc&quot;: [
+                        0.3333, 
+                        0.6667, 
+                        0.25
+                    ], 
+                    &quot;name&quot;: &quot;Co&quot;, 
+                    &quot;wyckoff_multiplicity&quot;: 2, 
+                    &quot;symbol&quot;: &quot;Co&quot;, 
+                    &quot;wyckoff&quot;: &quot;c&quot;, 
+                    &quot;oxidation_state&quot;: 0.0, 
+                    &quot;occupation&quot;: 1.0
+                }
+            ], 
+            &quot;description&quot;: &quot;Applied symmetry operations based on given spacegroup&quot;
+        }
+    }, 
+    {
+        &quot;url&quot;: &quot;http://www.materialsproject.org&quot;, 
+        &quot;name&quot;: &quot;Materials Project&quot;, 
+        &quot;description&quot;: {
+            &quot;crystal_id&quot;: 86628
+        }
+    }, 
+    {
+        &quot;url&quot;: &quot;http://www.materialsproject.org&quot;, 
+        &quot;name&quot;: &quot;Materials Project structure optimization&quot;, 
+        &quot;description&quot;: {
+            &quot;fw_id&quot;: null, 
+            &quot;task_type&quot;: &quot;GGA optimize structure (2x)&quot;, 
+            &quot;task_id&quot;: &quot;mp-54&quot;
+        }
+    }
+]</textarea>
+    </div>
+  </div>
+  <div id="bibtex" class="modal hide fade">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h3>BibTex Citation</h3>
+    </div>
+    <div class='modal-body'>
+      <textarea>@article{Jain2013,
+author = {Jain, Anubhav and Ong, Shyue Ping and Hautier, Geoffroy and Chen, Wei and Richards, William Davidson and Dacek, Stephen and Cholia, Shreyas and Gunter, Dan and Skinner, David and Ceder, Gerbrand and Persson, Kristin a.},
+doi = {10.1063/1.4812323},
+issn = {2166532X},
+journal = {APL Materials},
+number = {1},
+pages = {011002},
+title = {{The Materials Project: A materials genome approach to accelerating materials innovation}},
+url = {http://link.aip.org/link/AMPADS/v1/i1/p011002/s1\&amp;Agg=doi},
+volume = {1},
+year = {2013}
+}
+
+@misc{MaterialsProject,
+title = {{Materials Project}},
+url = {http://www.materialsproject.org}
+}
+
+@article{Kuznetsov1965_110,
+title = {{The cobalt-sulfur system}},
+author = {Kuznetsov, V.G. and Sokolova, M.A. and Palkina, K.K. and Popova, Z.V.},
+year = {1965},
+journal = {Inorganic Materials (USSR) (see: Izv.Akad.Nauk, Neorg.Mater.)},
+volume = {1},
+issue = {5},
+pages = {617--632},
+}
+
+@article{Bergerhoff1983,
+author = {Bergerhoff, G. and Hundt, R. and Sievers, R. and Brown, ID},
+doi = {10.1021/ci00038a003},
+journal = {Journal of Chemical Information and Computer Sciences},
+keywords = {icsd},
+mendeley-tags = {icsd},
+number = {2},
+pages = {66--69},
+publisher = {ACS Publications},
+title = {{The inorganic crystal structure data base}},
+url = {http://pubs.acs.org/doi/abs/10.1021/ci00038a003},
+volume = {23},
+year = {1983}
+}
+@misc{Karlsruhe,
+author = {Karlsruhe, FIZ},
+title = {{Inorganic Crystal Structure Database}},
+url = {http://icsd.fiz-karlsruhe.de}
+}
+ </textarea>
+    </div>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="span2">
+    <h5>ICSD IDs</h5>
+  </div>
+  <div class="span7">
+    <section class="icsd">
+      <ul>
+        
+        <li>622436</li>
+        
+        <li>622438</li>
+        
+        <li>52935</li>
+        
+        <li>53806</li>
+        
+        <li>76942</li>
+        
+        <li>76633</li>
+        
+        <li>44990</li>
+        
+      </ul>
+    </section>
+    <section>
+      <ul>
+      </ul>
+    </section>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="span2">
+    <h5>Submitted by</h5>
+  </div>
+  <div class="span7">
+    <ul>
+      
+      <li>
+        <a target='_blank' href="mailto:mpkocher@lbl.gov">
+          
+            Michael Kocher
+          
+        </a>
+      </li>
+      
+      <li>
+        <a target='_blank' href="mailto:ajain@lbl.gov">
+          
+            Anubhav Jain
+          
+        </a>
+      </li>
+      
+      <li>
+        <a target='_blank' href="mailto:shyue@mit.edu">
+          
+            Shyue Ping Ong
+          
+        </a>
+      </li>
+      
+      <li>
+        <a target='_blank' href="mailto:geoffroy.hautier@uclouvain.be">
+          
+            Geoffroy Hautier
+          
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="span3">
+    <p class="help-text">
+      Displaying lattice parameters for primitive cell; note that calculated cell volumes are typically overestimated on average by <a href="/docs/error_checking#vol-change">3% (+/- 6%)</a>. Note the primitive cell may appear less symmetric than the conventional cell representation (see "Structure Type" selector below the 3d structure)
+    </p>
+    <div id="final-structures"></div>
+  </div>
+
+</div>
+
+<script type="text/template" id="loading-spinner">
+  <center><div class="fontastic-molecule icon rotating"></div></center>
+</script>
+
+
+	</div>
+</div>
+
+  <footer>
+  
+  
+  <hr>
+<ul class="text-center inline">
+	<li>
+  	<a href="/about">About</a>
+	</li>
+	<li>
+	  <a class="" href="https://discuss.materialsproject.org" target="_blank">
+  Forum
+</a>
+
+	</li>
+	<li>
+	  <a href="/citing">Citing</a>
+	</li>
+	<li>
+  	  <a href="/terms">Terms of Use</a>
+	</li>
+	<li>
+  	<a href="/open">API</a>
+	</li>
+</ul>
+<div class="pad-top row text-center">
+	<small>
+		Powered by <a href="http://pymatgen.org">pymatgen</a>, <a href="http://pythonhosted.org//custodian/">custodian</a> and <a href="https://pythonhosted.org/FireWorks/">fireworks</a>
+	</small>
+</div>
+
+  </footer>
+  <!-- Manged at https://cdn.fontawesome.com by dwinston-->
+  <script src="https://use.fontawesome.com/fd3b9caec8.js"></script>
+</body>
+</html>
+
+
+
+#comp-lattice > ul:nth-child(1) > li:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+
+#comp-lattice > ul:nth-child(1) > li:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+#exp-lattice > ul:nth-child(1) > li:nth-child(1) > div:nth-child(2)
+
+#exp-lattice > ul:nth-child(1) > li:nth-child(1) > div:nth-child(2)
+#comp-lattice > ul:nth-child(1) > li:nth-child(1) > div:nth-child(2) > div:nth-child(1)
+
+
+#exp-lattice > ul:nth-child(1) > li:nth-child(1) > div:nth-child(2)
+
+
+
+
+
+
+
+
+
+.calc-summary-table > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(1) > span:nth-child(2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

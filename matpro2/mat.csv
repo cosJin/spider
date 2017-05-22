@@ -1,0 +1,25 @@
+Material,Band_Gap,Final_Magnetic_Moment,Density,Decomposes_To,Magnetic_Ordering,Formation_Energy_Atom,Energy_Above_Hull_Atom,ID
+Hf2S,0.000 eV,"
+          0.000 μ",11.04 g/cm,"
+          
+          Stable
+          
+        ","
+          Unknown
+        ",-1.253 eV,0.000 eV,mp-10000
+Nb4CoSi,0.005 eV,"
+          0.000 μ",7.83 g/cm,"
+          
+          Nb2Co3Si + Nb + Nb5Si3
+          
+        ","
+          Unknown
+        ",-0.341 eV,0.005 eV,mp-10003
+Mo3P,0.000 eV,"
+          0.000 μ",8.99 g/cm,"
+          
+          Stable
+          
+        ","
+          Unknown
+        ",-0.339 eV,0.000 eV,mp-10004
