@@ -46,6 +46,7 @@ class NmdkSpider(scrapy.Spider):
             item['isotherm_y'] = data['sorb_props'][0]['isotherm'][0]['series_data']['load']['value']
         except:
             pass
+        item['MPID']=data['about']['mpid']
         item['porous_material']=data['formula']
         item['Pore_Limiting_Diameter'] = str(data['props']['PLD']['value'])+data['props']['PLD']['units']
         item['Largest_Cavity_Diameter'] = str(data['props']['LCD']['value'])+data['props']['LCD']['units']

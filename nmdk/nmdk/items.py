@@ -25,3 +25,4 @@ class NmdkItem(scrapy.Item):
     hoa_y = scrapy.Field()
     isotherm_x = scrapy.Field()
     isotherm_y = scrapy.Field()
+    MPID= scrapy.Field()
