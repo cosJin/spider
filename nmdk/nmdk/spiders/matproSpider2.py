@@ -10,7 +10,7 @@ class NmdkSpider(scrapy.Spider):
 
     start_urls = ['https://www.materialsproject.org/']
     def start_requests(self):
-        for i in range(457988,457989):
+        for i in range(513032,513033):
             url="https://www.materialsproject.org/porous/NMGC-"+str(i)+"/data"
             cookies={
                 'expected_tab':'facebook',
@@ -42,10 +42,12 @@ class NmdkSpider(scrapy.Spider):
         except:
             pass
         try:
+            item['isotherm_material']=data['sorb_props'][0]['name']
             item['isotherm_x'] = data['sorb_props'][0]['isotherm'][0]['series_data']['pres']['value']
             item['isotherm_y'] = data['sorb_props'][0]['isotherm'][0]['series_data']['load']['value']
         except:
             pass
+        item['references']=data['all_references']
         item['MPID']=data['about']['mpid']
         item['porous_material']=data['formula']
         item['Pore_Limiting_Diameter'] = str(data['props']['PLD']['value'])+data['props']['PLD']['units']

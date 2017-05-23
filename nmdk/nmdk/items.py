@@ -26,3 +26,5 @@ class NmdkItem(scrapy.Item):
     isotherm_x = scrapy.Field()
     isotherm_y = scrapy.Field()
     MPID= scrapy.Field()
+    references=scrapy.Field()
+    isotherm_material=scrapy.Field()
