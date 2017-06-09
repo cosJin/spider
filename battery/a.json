@@ -1,0 +1,3 @@
+[
+{"TotalGravimetricCapacity": "\n                99\n              mAh g-1", "VoltagePairProperties": "charged:Li7(CoO3)2        discharge:Li4CoO3", "EnergyDensity": "\n                695 \n              Wh/l", "SpecificEnergy": "\n                255 \n               Wh/kg", "TotalVolumetricCapacity": "\n                271\n              Ah l-1", "VolumeChange": ["\n                2 %\n              "], "EnergyAboveHull_discharged": ["0.027 "], "EnergyAboveHull_charged": ["0.078 "], "IntercalationBatteryFramework": ["\n  CoO3\n"], "voltage": ["2.57 V"], "ID": ["mp-300769791"]}
+]

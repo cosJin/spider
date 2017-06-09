@@ -1,0 +1,427 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Materials Project </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--    <meta name="viewport" content="user-scalable = no">
+ -->
+ <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name="keywords" content="Materials Design, Materials Database, Materials Information, Materials Tools" />
+  <meta name="description" content="The Materials Project's mission is to accelerate the the discovery of new technological materials through advanced scientific computing and innovative design tools." />
+  <link rel="shortcut icon" href='/static/images/favicon.00f51d402f3d.png' />
+  <link rel="stylesheet" href='/static/stylesheets/less/compiled/nucleus.83bdc218c831.css' charset="utf-8">
+  <link rel="stylesheet" href='/static/stylesheets/less/compiled/app.3aeeb03032af.css' charset="utf-8">
+<script type="text/javascript">
+if (!window.console) window.console = {};
+if (!window.console.log) window.console.log = function () {};
+</script>
+
+
+
+  <script src="/static/components/requirejs/require.a0fb07562cea.js" data-main="/static/js/dist/config.e1ae416de44e.js"></script>
+  <script type="text/javascript">
+  window.onload = function () {
+    require(["base"], function () {
+          window.PATH = "/static/js/redesign/views/";
+          window.STATIC_URL = "/static/";
+          window.GROUPS = JSON.parse("[]");
+          window.SANDBOX = "core";
+        
+  require(["Battery"], 
+  function(Battery){
+    window.Battery = new Battery("{\u0027capacity_grav\u0027: 99.48923031065833, \u0027id_discharge\u0027: \u0027mp\u002D769791\u0027, \u0027material_ids\u0027: [\u0027mp\u002D764768\u0027, \u0027mp\u002D769791\u0027], \u0027energy_grav\u0027: 255.278257999477, \u0027max_delta_volume\u0027: 0.018745077045546843, \u0027muO2_data\u0027: {\u0027mp\u002D764768\u0027: [{\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 1.500 O2 \u002D\u003E 2.100 Li2O2 + 0.400 Li7Co5O12\u0027, \u0027evolution\u0027: 3.0, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.545 O2 \u002D\u003E 0.636 Li8CoO6 + 0.273 Li7Co5O12\u0027, \u0027evolution\u0027: 1.090909090909091, \u0027chempot\u0027: \u002D5.23272736466667}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.333 O2 \u002D\u003E 1.167 Li5CoO4 + 0.167 Li7Co5O12\u0027, \u0027evolution\u0027: 0.6666666666666665, \u0027chempot\u0027: \u002D5.8314758953124946}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.250 O2 \u002D\u003E 1.250 Li5CoO4 + 0.750 LiCoO2\u0027, \u0027evolution\u0027: 0.4999999999999998, \u0027chempot\u0027: \u002D6.086088751875006}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.000 O2 \u002D\u003E 1.000 Li6CoO4 + 1.000 LiCoO2\u0027, \u0027evolution\u0027: 2.2204460492503126e\u002D16, \u0027chempot\u0027: \u002D7.495259890624998}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 0.250 O2 + 1.167 Li6CoO4 + 0.833 CoO\u0027, \u0027evolution\u0027: \u002D0.49999999999999956, \u0027chempot\u0027: \u002D7.579653841666663}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 0.667 O2 + 0.833 Co + 1.167 Li6CoO4\u0027, \u0027evolution\u0027: \u002D1.3333333333333328, \u0027chempot\u0027: \u002D7.5955974}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 1.250 O2 + 3.500 Li2O + 2.000 Co\u0027, \u0027evolution\u0027: \u002D2.4999999999999996, \u0027chempot\u0027: \u002D7.838487595}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 3.000 O2 + 7.000 Li + 2.000 Co\u0027, \u0027evolution\u0027: \u002D6.0, \u0027chempot\u0027: \u002D11.148307030000002}], \u0027mp\u002D769791\u0027: [{\u0027reaction\u0027: \u00272.000 Li4CoO3 + 2.000 O2 \u002D\u003E 0.400 Li7Co5O12 + 2.600 Li2O2\u0027, \u0027evolution\u0027: 3.9999999999999996, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.818 O2 \u002D\u003E 0.788 Li8CoO6 + 0.242 Li7Co5O12\u0027, \u0027evolution\u0027: 1.6363636363636365, \u0027chempot\u0027: \u002D5.23272736466667}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.556 O2 \u002D\u003E 1.444 Li5CoO4 + 0.111 Li7Co5O12\u0027, \u0027evolution\u0027: 1.1111111111111112, \u0027chempot\u0027: \u002D5.8314758953124946}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.500 O2 \u002D\u003E 1.500 Li5CoO4 + 0.500 LiCoO2\u0027, \u0027evolution\u0027: 1.0, \u0027chempot\u0027: \u002D6.086088751875006}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.200 O2 \u002D\u003E 1.200 Li6CoO4 + 0.800 LiCoO2\u0027, \u0027evolution\u0027: 0.4, \u0027chempot\u0027: \u002D7.495259890624998}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 0.667 CoO + 1.333 Li6CoO4\u0027, \u0027evolution\u0027: \u002D0.0, \u0027chempot\u0027: \u002D7.579653841666663}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 0.333 O2 + 0.667 Co + 1.333 Li6CoO4\u0027, \u0027evolution\u0027: \u002D0.6666666666666666, \u0027chempot\u0027: \u002D7.5955974}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 1.000 O2 + 4.000 Li2O + 2.000 Co\u0027, \u0027evolution\u0027: \u002D2.0, \u0027chempot\u0027: \u002D7.838487595}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 3.000 O2 + 8.000 Li + 2.000 Co\u0027, \u0027evolution\u0027: \u002D6.0, \u0027chempot\u0027: \u002D11.148307030000002}]}, \u0027battid\u0027: \u0027mp\u002D300769791\u0027, \u0027formula_discharge\u0027: \u0027Li4CoO3\u0027, \u0027energy_vol\u0027: 694.5484576771015, \u0027stability_discharge\u0027: 0.02677757895833288, \u0027max_voltage_step\u0027: 0, \u0027type\u0027: \u0027intercalation\u0027, \u0027nsteps\u0027: 1, \u0027min_voltage\u0027: 2.565888359999996, \u0027stability_data\u0027: {\u0027mp\u002D764768\u0027: 0.07796808866666627, \u0027mp\u002D769791\u0027: 0.02677757895833288}, \u0027brototypeid\u0027: \u0027544ea70ffb6f1518dc943687\u0027, \u0027max_instability\u0027: 0.07796808866666627, \u0027stability_charge\u0027: 0.07796808866666627, \u0027working_ion\u0027: \u0027Li\u0027, \u0027framework\u0027: {\u0027nelements\u0027: 2, \u0027reduced_cell_formula\u0027: \u0027CoO3\u0027, \u0027unit_cell_composition\u0027: {\u0027Co\u0027: 1.0, \u0027O\u0027: 3.0}, \u0027reduced_cell_composition\u0027: {\u0027Co\u0027: 1.0, \u0027O\u0027: 3.0}, \u0027elements\u0027: [\u0027Co\u0027, \u0027O\u0027]}, \u0027fracA_discharge\u0027: 0.5, \u0027formula_charge\u0027: \u0027Li7(CoO3)2\u0027, \u0027max_voltage\u0027: 2.565888359999996, \u0027_id\u0027: \u0027544ebaacfb6f155a39535cd1\u0027, \u0027fracA_charge\u0027: 0.4666666666666667, \u0027unstable_material_ids\u0027: [], \u0027id_charge\u0027: \u0027mp\u002D764768\u0027, \u0027adj_pairs\u0027: [{\u0027capacity_grav\u0027: 99.48923031065833, \u0027id_discharge\u0027: \u0027mp\u002D769791\u0027, \u0027material_ids\u0027: [\u0027mp\u002D764768\u0027, \u0027mp\u002D769791\u0027], \u0027energy_grav\u0027: 255.278257999477, \u0027max_delta_volume\u0027: 0.018745077045546843, \u0027muO2_data\u0027: {\u0027mp\u002D764768\u0027: [{\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 1.500 O2 \u002D\u003E 2.100 Li2O2 + 0.400 Li7Co5O12\u0027, \u0027evolution\u0027: 3.0, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.545 O2 \u002D\u003E 0.636 Li8CoO6 + 0.273 Li7Co5O12\u0027, \u0027evolution\u0027: 1.090909090909091, \u0027chempot\u0027: \u002D5.23272736466667}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.333 O2 \u002D\u003E 1.167 Li5CoO4 + 0.167 Li7Co5O12\u0027, \u0027evolution\u0027: 0.6666666666666665, \u0027chempot\u0027: \u002D5.8314758953124946}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.250 O2 \u002D\u003E 1.250 Li5CoO4 + 0.750 LiCoO2\u0027, \u0027evolution\u0027: 0.4999999999999998, \u0027chempot\u0027: \u002D6.086088751875006}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.000 O2 \u002D\u003E 1.000 Li6CoO4 + 1.000 LiCoO2\u0027, \u0027evolution\u0027: 2.2204460492503126e\u002D16, \u0027chempot\u0027: \u002D7.495259890624998}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 0.250 O2 + 1.167 Li6CoO4 + 0.833 CoO\u0027, \u0027evolution\u0027: \u002D0.49999999999999956, \u0027chempot\u0027: \u002D7.579653841666663}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 0.667 O2 + 0.833 Co + 1.167 Li6CoO4\u0027, \u0027evolution\u0027: \u002D1.3333333333333328, \u0027chempot\u0027: \u002D7.5955974}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 1.250 O2 + 3.500 Li2O + 2.000 Co\u0027, \u0027evolution\u0027: \u002D2.4999999999999996, \u0027chempot\u0027: \u002D7.838487595}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 3.000 O2 + 7.000 Li + 2.000 Co\u0027, \u0027evolution\u0027: \u002D6.0, \u0027chempot\u0027: \u002D11.148307030000002}], \u0027mp\u002D769791\u0027: [{\u0027reaction\u0027: \u00272.000 Li4CoO3 + 2.000 O2 \u002D\u003E 0.400 Li7Co5O12 + 2.600 Li2O2\u0027, \u0027evolution\u0027: 3.9999999999999996, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.818 O2 \u002D\u003E 0.788 Li8CoO6 + 0.242 Li7Co5O12\u0027, \u0027evolution\u0027: 1.6363636363636365, \u0027chempot\u0027: \u002D5.23272736466667}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.556 O2 \u002D\u003E 1.444 Li5CoO4 + 0.111 Li7Co5O12\u0027, \u0027evolution\u0027: 1.1111111111111112, \u0027chempot\u0027: \u002D5.8314758953124946}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.500 O2 \u002D\u003E 1.500 Li5CoO4 + 0.500 LiCoO2\u0027, \u0027evolution\u0027: 1.0, \u0027chempot\u0027: \u002D6.086088751875006}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.200 O2 \u002D\u003E 1.200 Li6CoO4 + 0.800 LiCoO2\u0027, \u0027evolution\u0027: 0.4, \u0027chempot\u0027: \u002D7.495259890624998}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 0.667 CoO + 1.333 Li6CoO4\u0027, \u0027evolution\u0027: \u002D0.0, \u0027chempot\u0027: \u002D7.579653841666663}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 0.333 O2 + 0.667 Co + 1.333 Li6CoO4\u0027, \u0027evolution\u0027: \u002D0.6666666666666666, \u0027chempot\u0027: \u002D7.5955974}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 1.000 O2 + 4.000 Li2O + 2.000 Co\u0027, \u0027evolution\u0027: \u002D2.0, \u0027chempot\u0027: \u002D7.838487595}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 3.000 O2 + 8.000 Li + 2.000 Co\u0027, \u0027evolution\u0027: \u002D6.0, \u0027chempot\u0027: \u002D11.148307030000002}]}, \u0027formula_discharge\u0027: \u0027Li4CoO3\u0027, \u0027energy_vol\u0027: 694.5484576771015, \u0027stability_discharge\u0027: 0.02677757895833288, \u0027max_voltage_step\u0027: 0, \u0027nsteps\u0027: 1, \u0027min_voltage\u0027: 2.565888359999996, \u0027stability_data\u0027: {\u0027mp\u002D764768\u0027: 0.07796808866666627, \u0027mp\u002D769791\u0027: 0.02677757895833288}, \u0027max_instability\u0027: 0.07796808866666627, \u0027stability_charge\u0027: 0.07796808866666627, \u0027working_ion\u0027: \u0027Li\u0027, \u0027framework\u0027: {\u0027nelements\u0027: 2, \u0027reduced_cell_formula\u0027: \u0027CoO3\u0027, \u0027unit_cell_composition\u0027: {\u0027Co\u0027: 1.0, \u0027O\u0027: 3.0}, \u0027reduced_cell_composition\u0027: {\u0027Co\u0027: 1.0, \u0027O\u0027: 3.0}, \u0027elements\u0027: [\u0027Co\u0027, \u0027O\u0027]}, \u0027fracA_discharge\u0027: 0.5, \u0027formula_charge\u0027: \u0027Li7(CoO3)2\u0027, \u0027max_voltage\u0027: 2.565888359999996, \u0027fracA_charge\u0027: 0.4666666666666667, \u0027unstable_material_ids\u0027: [], \u0027id_charge\u0027: \u0027mp\u002D764768\u0027, \u0027capacity_vol\u0027: 270.6853768482361, \u0027average_voltage\u0027: 2.565888359999996, \u0027stable_material_ids\u0027: [\u0027mp\u002D764768\u0027, \u0027mp\u002D769791\u0027], \u0027min_instability\u0027: 0.02677757895833288}], \u0027capacity_vol\u0027: 270.6853768482361, \u0027sbxn\u0027: [\u0027jcesr\u0027, \u0027core\u0027, \u0027vw\u0027], \u0027all_pairs\u0027: [{\u0027capacity_grav\u0027: 99.48923031065833, \u0027id_discharge\u0027: \u0027mp\u002D769791\u0027, \u0027material_ids\u0027: [\u0027mp\u002D764768\u0027, \u0027mp\u002D769791\u0027], \u0027energy_grav\u0027: 255.278257999477, \u0027max_delta_volume\u0027: 0.018745077045546843, \u0027muO2_data\u0027: {\u0027mp\u002D764768\u0027: [{\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 1.500 O2 \u002D\u003E 2.100 Li2O2 + 0.400 Li7Co5O12\u0027, \u0027evolution\u0027: 3.0, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.545 O2 \u002D\u003E 0.636 Li8CoO6 + 0.273 Li7Co5O12\u0027, \u0027evolution\u0027: 1.090909090909091, \u0027chempot\u0027: \u002D5.23272736466667}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.333 O2 \u002D\u003E 1.167 Li5CoO4 + 0.167 Li7Co5O12\u0027, \u0027evolution\u0027: 0.6666666666666665, \u0027chempot\u0027: \u002D5.8314758953124946}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.250 O2 \u002D\u003E 1.250 Li5CoO4 + 0.750 LiCoO2\u0027, \u0027evolution\u0027: 0.4999999999999998, \u0027chempot\u0027: \u002D6.086088751875006}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 + 0.000 O2 \u002D\u003E 1.000 Li6CoO4 + 1.000 LiCoO2\u0027, \u0027evolution\u0027: 2.2204460492503126e\u002D16, \u0027chempot\u0027: \u002D7.495259890624998}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 0.250 O2 + 1.167 Li6CoO4 + 0.833 CoO\u0027, \u0027evolution\u0027: \u002D0.49999999999999956, \u0027chempot\u0027: \u002D7.579653841666663}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 0.667 O2 + 0.833 Co + 1.167 Li6CoO4\u0027, \u0027evolution\u0027: \u002D1.3333333333333328, \u0027chempot\u0027: \u002D7.5955974}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 1.250 O2 + 3.500 Li2O + 2.000 Co\u0027, \u0027evolution\u0027: \u002D2.4999999999999996, \u0027chempot\u0027: \u002D7.838487595}, {\u0027reaction\u0027: \u00271.000 Li7(CoO3)2 \u002D\u003E 3.000 O2 + 7.000 Li + 2.000 Co\u0027, \u0027evolution\u0027: \u002D6.0, \u0027chempot\u0027: \u002D11.148307030000002}], \u0027mp\u002D769791\u0027: [{\u0027reaction\u0027: \u00272.000 Li4CoO3 + 2.000 O2 \u002D\u003E 0.400 Li7Co5O12 + 2.600 Li2O2\u0027, \u0027evolution\u0027: 3.9999999999999996, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.818 O2 \u002D\u003E 0.788 Li8CoO6 + 0.242 Li7Co5O12\u0027, \u0027evolution\u0027: 1.6363636363636365, \u0027chempot\u0027: \u002D5.23272736466667}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.556 O2 \u002D\u003E 1.444 Li5CoO4 + 0.111 Li7Co5O12\u0027, \u0027evolution\u0027: 1.1111111111111112, \u0027chempot\u0027: \u002D5.8314758953124946}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.500 O2 \u002D\u003E 1.500 Li5CoO4 + 0.500 LiCoO2\u0027, \u0027evolution\u0027: 1.0, \u0027chempot\u0027: \u002D6.086088751875006}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 + 0.200 O2 \u002D\u003E 1.200 Li6CoO4 + 0.800 LiCoO2\u0027, \u0027evolution\u0027: 0.4, \u0027chempot\u0027: \u002D7.495259890624998}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 0.667 CoO + 1.333 Li6CoO4\u0027, \u0027evolution\u0027: \u002D0.0, \u0027chempot\u0027: \u002D7.579653841666663}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 0.333 O2 + 0.667 Co + 1.333 Li6CoO4\u0027, \u0027evolution\u0027: \u002D0.6666666666666666, \u0027chempot\u0027: \u002D7.5955974}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 1.000 O2 + 4.000 Li2O + 2.000 Co\u0027, \u0027evolution\u0027: \u002D2.0, \u0027chempot\u0027: \u002D7.838487595}, {\u0027reaction\u0027: \u00272.000 Li4CoO3 \u002D\u003E 3.000 O2 + 8.000 Li + 2.000 Co\u0027, \u0027evolution\u0027: \u002D6.0, \u0027chempot\u0027: \u002D11.148307030000002}]}, \u0027formula_discharge\u0027: \u0027Li4CoO3\u0027, \u0027energy_vol\u0027: 694.5484576771015, \u0027stability_discharge\u0027: 0.02677757895833288, \u0027max_voltage_step\u0027: 0, \u0027nsteps\u0027: 1, \u0027min_voltage\u0027: 2.565888359999996, \u0027stability_data\u0027: {\u0027mp\u002D764768\u0027: 0.07796808866666627, \u0027mp\u002D769791\u0027: 0.02677757895833288}, \u0027max_instability\u0027: 0.07796808866666627, \u0027stability_charge\u0027: 0.07796808866666627, \u0027working_ion\u0027: \u0027Li\u0027, \u0027framework\u0027: {\u0027nelements\u0027: 2, \u0027reduced_cell_formula\u0027: \u0027CoO3\u0027, \u0027unit_cell_composition\u0027: {\u0027Co\u0027: 1.0, \u0027O\u0027: 3.0}, \u0027reduced_cell_composition\u0027: {\u0027Co\u0027: 1.0, \u0027O\u0027: 3.0}, \u0027elements\u0027: [\u0027Co\u0027, \u0027O\u0027]}, \u0027fracA_discharge\u0027: 0.5, \u0027formula_charge\u0027: \u0027Li7(CoO3)2\u0027, \u0027max_voltage\u0027: 2.565888359999996, \u0027fracA_charge\u0027: 0.4666666666666667, \u0027unstable_material_ids\u0027: [], \u0027id_charge\u0027: \u0027mp\u002D764768\u0027, \u0027capacity_vol\u0027: 270.6853768482361, \u0027average_voltage\u0027: 2.565888359999996, \u0027stable_material_ids\u0027: [\u0027mp\u002D764768\u0027, \u0027mp\u002D769791\u0027], \u0027min_instability\u0027: 0.02677757895833288}], \u0027average_voltage\u0027: 2.565888359999996, \u0027spacegroup\u0027: {\u0027symbol\u0027: \u0027Cc\u0027, \u0027number\u0027: 9, \u0027point_group\u0027: \u0027m\u0027, \u0027source\u0027: \u0027spglib\u0027, \u0027crystal_system\u0027: \u0027monoclinic\u0027, \u0027hall\u0027: \u0027C \u002D2yc\u0027}, \u0027stable_material_ids\u0027: [\u0027mp\u002D764768\u0027, \u0027mp\u002D769791\u0027], \u0027min_instability\u0027: 0.02677757895833288}")
+  })
+
+    });
+  };
+  </script>
+
+
+
+<script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26097776-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+</script>
+
+</head>
+<body>
+  
+  <header>
+  
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="navbar-inner">  
+     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </a>
+    <div class="nav-collapse">
+      <a class="brand" href="/"><img src="/static/images/Logo/Mp-logo-v5.ad467cf84f15.png"></a>
+      <ul class="nav pull-right" role="navigation"> 
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li class=dropdown>
+          <a data-toggle=dropdown role="button" class="dropdown-toggle" href="#">About <b class="caret"></b></a>  
+          <ul class="dropdown-menu">
+            <li role="presentation">
+              <a href="/about">About</a>
+            </li>
+            <li role="presentation">
+              <a class="" href="https://discuss.materialsproject.org" target="_blank">
+  Forum
+</a>
+
+           </li>
+            <li role="presentation">
+              <a href="/press">Press</a>
+            </li>
+            <li role="presentation">
+              <a href="/references">Publications</a>
+            </li>
+            <li role="presentation">
+              <a href="/citing">Citing</a>
+            </li>
+            <li role="presentation">
+              <a href="/infrastructure">Infrastructure</a>
+            </li>
+          </ul>
+        </li>
+
+      
+        
+          
+<li class="dropdown">
+  <a data-toggle=dropdown role="button" class="dropdown-toggle" href="#">Apps <b class="caret"></b></a>  
+    
+  <ul class="dropdown-menu">
+    <li role="presentation">
+      <a href="/#search/materials/">Materials Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#search/batteries/">Battery Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/xtaltoolkit">Crystal Toolkit</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/structurepredictor">Structure Predictor</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/phasediagram/">Phase Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/pourbaixdiagram">Pourbaix Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/reactioncalculator">Reaction Calculator</a>
+    </li>
+    <li role="presentation">
+      <a href="/#search/porous/">Nanoporous Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#search/molecules/">Molecules Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/rfbdashboard/">RFB Dashboard</a>
+    </li>
+  </ul>
+</li>
+
+        
+      
+
+        <li class="dropdown">
+  <a data-toggle=dropdown role="button" class="dropdown-toggle" href="#">Documentation <b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li role="presentation">
+      <a href="/docs/api">API</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/calculations">Calculations Guide</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/phasediagram">Phase Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/pourbaixdiagram">Pourbaix Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/battery">Battery Search</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/rxncalculator">Reaction Calculator</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/xtaltoolkit">Crystal Toolkit</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/structurepredictor">Structure Predictor</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/nanoporous">Nanoporous Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/molecules">Molecules Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/rfbdashboard">RFB Dashboard</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/error_checking">Error Checking</a>
+    </li>
+    <li role="separator" class="divider"
+        style="border-bottom: 1px solid #6F6F6F;"></li>
+    <li role="presentation">
+      <a href="//materialsproject.org/wiki">Wiki</a>
+    </li>
+  </ul>
+</li>
+
+        <li>
+        <li>
+          <a href="/open">API</a>
+        </li>
+        
+        <li>
+          <a href="https://www.youtube.com/playlist?list=PLTjFYVNE7LTjHJwV994iQHS-bIkh3UXKJ"
+             class="nav-tutorials-link yt-icon-youtube-play">
+            Tutorials
+          </a>
+        </li>
+        <li>
+          <a href="/dashboard" data-icon="&gt;" class="icon"> Dashboard</a>
+        </li>
+        <li>
+          <a href="/janrain/logout" ><i title="logout" class="icon-logout"></i></a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </header>
+  
+  
+<div class="container">
+	<div class="detail" id="battery">
+		<div class="row detail-header">
+			<span class="detail-section">
+				<h5><small> Intercalation Battery Framework </small></h5>
+				<h4>
+  <span id="working-ion"></span><sub id="discharge"></sub>CoO<sub>3</sub>
+</h4>
+			</span>
+			<span class="vertical-line"></span>
+			<span class="detail-section">
+				<h5 ><small>ID:</small></h5>
+				<h4 >mp-300769791</h4>
+			</span>
+			<span class="vertical-line"></span>
+			
+		</div>
+		
+
+  <div class="row">
+    <div class="span6">
+      <div class="panel" id="discharge-curve"></div>
+    </div>
+    <div class="span6 pull-up">
+      <div class="panel" id="o2evolution"></div>
+      <strong>Safety Data For : </strong>
+      <select class="selectpicker" id="safety-data" data-width="180px">
+        
+          <option>
+            Li0.47CoO<sub>3</sub>
+          </option>
+        
+      </select>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="span6">
+        <div id="jsmol"></div>
+        <select class="selectpicker" id="jsmol-select" data-width="180px">
+        
+          <option name="mp-769791">
+            Li<sub>4</sub>CoO<sub>3</sub>
+          </option>
+          <option name="mp-764768">
+            Li<sub>7</sub>(CoO<sub>3</sub>)<sub>2</sub>
+          </option>
+        
+      </select>
+
+    </div>
+
+    <div class="span4">
+      <table class="table data">
+        <tbody>
+          <tr>
+            <td>
+              <h5>Total Gravimetric Capacity</h5>
+              <span class="value">
+                99
+              </span>
+              <span>mAh g<sup>-1</sup></span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <h5>Total Volumetric Capacity</h5>
+              <span class="value">
+                271
+              </span>
+              <span>Ah l<sup>-1</sup></span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <h5>Volume Change</h5>
+              <span class="value">
+                2 %
+              </span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <h5>Energy Density</h5>
+              <span class="value">
+                695 
+              </span>
+              <span>Wh/l</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <h5>Specific Energy</h5>
+              <span class="value">
+                255 
+              </span>
+              <span> Wh/kg</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+
+  <hr class="contained pull-up pull-down">
+
+  <div class=row>
+    <div class="span12">
+      <h4>Voltage Pair Properties</h4>
+      
+
+      <table class="table table-bordered pair">
+        <tbody>
+          <tr>
+            <td>
+              <span class=charge>
+                <span class='label-bg'>+ charged</span>
+              </span>
+              <a href="/materials/mp-764768" class="btn">Li<sub>7</sub>(CoO<sub>3</sub>)<sub>2</sub></a>
+            </td>
+            <td>
+              <div class="value">0.078 </div>
+              <div class='label-bg'>Energy Above Hull (eV/atom)</div>
+            </td>
+            <td rowspan="2">
+              <strong>Volume Change</strong>
+              <div class="value">2%</div>
+            </td>
+            <td rowspan="2">
+              <strong>Capacity</strong>
+              <div class="value">99</div>
+              <span> mAhg<sup>-1</sup></span>
+            </td>
+            <td rowspan="2">
+              <strong>Voltage</strong>
+              <div class="value">2.57 V</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class='charge'>
+                <span class='label-bg'>- discharged</span>
+              </span>
+              <a href="/materials/mp-769791" class="btn">Li<sub>4</sub>CoO<sub>3</sub></a>
+            </td>
+            <td>
+              <div class="value">0.027 </div>
+              <div class='label-bg'>Energy Above Hull (eV/atom)</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>  
+
+    
+  
+    </div>
+  </div>
+
+
+
+
+	</div>
+</div>
+
+  <footer>
+  
+  
+  <hr>
+<ul class="text-center inline">
+	<li>
+  	<a href="/about">About</a>
+	</li>
+	<li>
+	  <a class="" href="https://discuss.materialsproject.org" target="_blank">
+  Forum
+</a>
+
+	</li>
+	<li>
+	  <a href="/citing">Citing</a>
+	</li>
+	<li>
+  	  <a href="/terms">Terms of Use</a>
+	</li>
+	<li>
+  	<a href="/open">API</a>
+	</li>
+</ul>
+<div class="pad-top row text-center">
+	<small>
+		Powered by <a href="http://pymatgen.org">pymatgen</a>, <a href="http://pythonhosted.org//custodian/">custodian</a> and <a href="https://pythonhosted.org/FireWorks/">fireworks</a>
+	</small>
+</div>
+
+  </footer>
+  <!-- Manged at https://cdn.fontawesome.com by dwinston-->
+  <script src="https://use.fontawesome.com/fd3b9caec8.js"></script>
+</body>
+</html>

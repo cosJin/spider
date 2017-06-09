@@ -1,0 +1,427 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Materials Project </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--    <meta name="viewport" content="user-scalable = no">
+ -->
+ <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <meta name="keywords" content="Materials Design, Materials Database, Materials Information, Materials Tools" />
+  <meta name="description" content="The Materials Project's mission is to accelerate the the discovery of new technological materials through advanced scientific computing and innovative design tools." />
+  <link rel="shortcut icon" href='/static/images/favicon.00f51d402f3d.png' />
+  <link rel="stylesheet" href='/static/stylesheets/less/compiled/nucleus.83bdc218c831.css' charset="utf-8">
+  <link rel="stylesheet" href='/static/stylesheets/less/compiled/app.3aeeb03032af.css' charset="utf-8">
+<script type="text/javascript">
+if (!window.console) window.console = {};
+if (!window.console.log) window.console.log = function () {};
+</script>
+
+
+
+  <script src="/static/components/requirejs/require.a0fb07562cea.js" data-main="/static/js/dist/config.e1ae416de44e.js"></script>
+  <script type="text/javascript">
+  window.onload = function () {
+    require(["base"], function () {
+          window.PATH = "/static/js/redesign/views/";
+          window.STATIC_URL = "/static/";
+          window.GROUPS = JSON.parse("[]");
+          window.SANDBOX = "core";
+        
+  require(["Battery"], 
+  function(Battery){
+    window.Battery = new Battery("{\u0027capacity_grav\u0027: 108.40992460165047, \u0027id_discharge\u0027: \u0027mp\u002D691115\u0027, \u0027material_ids\u0027: [\u0027mp\u002D763571\u0027, \u0027mp\u002D691123\u0027, \u0027mp\u002D691115\u0027], \u0027energy_grav\u0027: 521.6096166043095, \u0027max_delta_volume\u0027: 0.0021080835216258365, \u0027muO2_data\u0027: {\u0027mp\u002D691123\u0027: [{\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 0.250 O2 + 1.750 Li4Mn5O12 + 1.250 MnO2\u0027, \u0027evolution\u0027: \u002D0.5000000000000007, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 0.600 O2 + 1.400 Li5Mn7O16 + 0.200 MnO2\u0027, \u0027evolution\u0027: \u002D1.2000000000000022, \u0027chempot\u0027: \u002D5.166053818749994}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 0.650 O2 + 1.400 Li5Mn7O16 + 0.100 Mn2O3\u0027, \u0027evolution\u0027: \u002D1.3000000000000023, \u0027chempot\u0027: \u002D5.666080393750012}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 1.875 O2 + 3.500 Li2MnO3 + 3.250 Mn2O3\u0027, \u0027evolution\u0027: \u002D3.7500000000000004, \u0027chempot\u0027: \u002D6.338404574107159}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 2.417 O2 + 3.500 Li2MnO3 + 2.167 Mn3O4\u0027, \u0027evolution\u0027: \u002D4.833333333333333, \u0027chempot\u0027: \u002D6.445984513749981}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 3.000 O2 + 7.000 LiMnO2 + 1.000 Mn3O4\u0027, \u0027evolution\u0027: \u002D6.000000000000002, \u0027chempot\u0027: \u002D6.923267229999968}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 3.500 O2 + 7.000 LiMnO2 + 3.000 MnO\u0027, \u0027evolution\u0027: \u002D7.000000000000002, \u0027chempot\u0027: \u002D7.376891950000002}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 5.250 O2 + 8.833 MnO + 1.167 Li6MnO4\u0027, \u0027evolution\u0027: \u002D10.500000000000004, \u0027chempot\u0027: \u002D7.974100941666673}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 9.667 O2 + 1.167 Li6MnO4 + 8.833 Mn\u0027, \u0027evolution\u0027: \u002D19.333333333333336, \u0027chempot\u0027: \u002D8.936326982339308}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 10.250 O2 + 3.500 Li2O + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D20.5, \u0027chempot\u0027: \u002D8.9726899473393}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 12.000 O2 + 10.000 Mn + 7.000 Li\u0027, \u0027evolution\u0027: \u002D24.0, \u0027chempot\u0027: \u002D11.148307030000002}], \u0027mp\u002D763571\u0027: [{\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 1.000 O2 + 5.000 MnO2 + 1.000 Li4Mn5O12\u0027, \u0027evolution\u0027: \u002D2.000000000000001, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 1.200 O2 + 0.800 Li5Mn7O16 + 4.400 MnO2\u0027, \u0027evolution\u0027: \u002D2.400000000000002, \u0027chempot\u0027: \u002D5.166053818749994}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 2.300 O2 + 2.200 Mn2O3 + 0.800 Li5Mn7O16\u0027, \u0027evolution\u0027: \u002D4.6000000000000005, \u0027chempot\u0027: \u002D5.666080393750012}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 3.000 O2 + 2.000 Li2MnO3 + 4.000 Mn2O3\u0027, \u0027evolution\u0027: \u002D6.000000000000001, \u0027chempot\u0027: \u002D6.338404574107159}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 3.667 O2 + 2.667 Mn3O4 + 2.000 Li2MnO3\u0027, \u0027evolution\u0027: \u002D7.333333333333335, \u0027chempot\u0027: \u002D6.445984513749981}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 4.000 O2 + 4.000 LiMnO2 + 2.000 Mn3O4\u0027, \u0027evolution\u0027: \u002D8.000000000000002, \u0027chempot\u0027: \u002D6.923267229999968}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 5.000 O2 + 4.000 LiMnO2 + 6.000 MnO\u0027, \u0027evolution\u0027: \u002D10.000000000000002, \u0027chempot\u0027: \u002D7.376891950000002}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 6.000 O2 + 9.333 MnO + 0.667 Li6MnO4\u0027, \u0027evolution\u0027: \u002D12.0, \u0027chempot\u0027: \u002D7.974100941666673}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 10.667 O2 + 0.667 Li6MnO4 + 9.333 Mn\u0027, \u0027evolution\u0027: \u002D21.333333333333332, \u0027chempot\u0027: \u002D8.936326982339308}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 11.000 O2 + 10.000 Mn + 2.000 Li2O\u0027, \u0027evolution\u0027: \u002D22.0, \u0027chempot\u0027: \u002D8.9726899473393}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 12.000 O2 + 4.000 Li + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D24.0, \u0027chempot\u0027: \u002D11.148307030000002}], \u0027mp\u002D691115\u0027: [{\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 2.000 Li4Mn5O12\u0027, \u0027evolution\u0027: \u002D0.0, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 0.333 O2 + 1.333 Li5Mn7O16 + 0.667 Li2MnO3\u0027, \u0027evolution\u0027: \u002D0.6666666666666686, \u0027chempot\u0027: \u002D5.536675429999954}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 1.500 O2 + 4.000 Li2MnO3 + 3.000 Mn2O3\u0027, \u0027evolution\u0027: \u002D3.0, \u0027chempot\u0027: \u002D6.338404574107159}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 2.000 O2 + 2.000 Mn3O4 + 4.000 Li2MnO3\u0027, \u0027evolution\u0027: \u002D4.0, \u0027chempot\u0027: \u002D6.445984513749981}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 2.667 O2 + 0.667 Mn3O4 + 8.000 LiMnO2\u0027, \u0027evolution\u0027: \u002D5.333333333333335, \u0027chempot\u0027: \u002D6.923267229999968}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 3.000 O2 + 8.000 LiMnO2 + 2.000 MnO\u0027, \u0027evolution\u0027: \u002D6.000000000000001, \u0027chempot\u0027: \u002D7.376891950000002}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 5.000 O2 + 1.333 Li6MnO4 + 8.667 MnO\u0027, \u0027evolution\u0027: \u002D10.0, \u0027chempot\u0027: \u002D7.974100941666673}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 9.333 O2 + 1.333 Li6MnO4 + 8.667 Mn\u0027, \u0027evolution\u0027: \u002D18.666666666666668, \u0027chempot\u0027: \u002D8.936326982339308}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 10.000 O2 + 4.000 Li2O + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D20.0, \u0027chempot\u0027: \u002D8.9726899473393}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 12.000 O2 + 8.000 Li + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D24.0, \u0027chempot\u0027: \u002D11.148307030000002}]}, \u0027battid\u0027: \u0027mp\u002D300691115\u0027, \u0027formula_discharge\u0027: \u0027Li4Mn5O12\u0027, \u0027energy_vol\u0027: 2031.9799879656332, \u0027stability_discharge\u0027: 8.881784197001252e\u002D16, \u0027max_voltage_step\u0027: 0, \u0027type\u0027: \u0027intercalation\u0027, \u0027nsteps\u0027: 1, \u0027min_voltage\u0027: 4.811456317499997, \u0027stability_data\u0027: {\u0027mp\u002D691123\u0027: 0.02191620243902559, \u0027mp\u002D763571\u0027: 0.08267542921052584, \u0027mp\u002D691115\u0027: 8.881784197001252e\u002D16}, \u0027brototypeid\u0027: \u0027544ea72cfb6f1518e294368c\u0027, \u0027max_instability\u0027: 0.08267542921052584, \u0027stability_charge\u0027: 0.08267542921052584, \u0027working_ion\u0027: \u0027Li\u0027, \u0027framework\u0027: {\u0027nelements\u0027: 2, \u0027reduced_cell_formula\u0027: \u0027Mn5O12\u0027, \u0027unit_cell_composition\u0027: {\u0027Mn\u0027: 5.0, \u0027O\u0027: 12.0}, \u0027reduced_cell_composition\u0027: {\u0027Mn\u0027: 5.0, \u0027O\u0027: 12.0}, \u0027elements\u0027: [\u0027Mn\u0027, \u0027O\u0027]}, \u0027fracA_discharge\u0027: 0.19047619047619047, \u0027formula_charge\u0027: \u0027Li2Mn5O12\u0027, \u0027max_voltage\u0027: 4.811456317499997, \u0027_id\u0027: \u0027544ebad4fb6f1559fe535cdb\u0027, \u0027fracA_charge\u0027: 0.10526315789473684, \u0027unstable_material_ids\u0027: [\u0027mp\u002D691123\u0027], \u0027id_charge\u0027: \u0027mp\u002D763571\u0027, \u0027adj_pairs\u0027: [{\u0027capacity_grav\u0027: 108.40992460165047, \u0027id_discharge\u0027: \u0027mp\u002D691115\u0027, \u0027material_ids\u0027: [\u0027mp\u002D763571\u0027, \u0027mp\u002D691123\u0027, \u0027mp\u002D691115\u0027], \u0027energy_grav\u0027: 521.6096166043095, \u0027max_delta_volume\u0027: 0.0021080835216258365, \u0027muO2_data\u0027: {\u0027mp\u002D691123\u0027: [{\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 0.250 O2 + 1.750 Li4Mn5O12 + 1.250 MnO2\u0027, \u0027evolution\u0027: \u002D0.5000000000000007, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 0.600 O2 + 1.400 Li5Mn7O16 + 0.200 MnO2\u0027, \u0027evolution\u0027: \u002D1.2000000000000022, \u0027chempot\u0027: \u002D5.166053818749994}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 0.650 O2 + 1.400 Li5Mn7O16 + 0.100 Mn2O3\u0027, \u0027evolution\u0027: \u002D1.3000000000000023, \u0027chempot\u0027: \u002D5.666080393750012}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 1.875 O2 + 3.500 Li2MnO3 + 3.250 Mn2O3\u0027, \u0027evolution\u0027: \u002D3.7500000000000004, \u0027chempot\u0027: \u002D6.338404574107159}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 2.417 O2 + 3.500 Li2MnO3 + 2.167 Mn3O4\u0027, \u0027evolution\u0027: \u002D4.833333333333333, \u0027chempot\u0027: \u002D6.445984513749981}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 3.000 O2 + 7.000 LiMnO2 + 1.000 Mn3O4\u0027, \u0027evolution\u0027: \u002D6.000000000000002, \u0027chempot\u0027: \u002D6.923267229999968}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 3.500 O2 + 7.000 LiMnO2 + 3.000 MnO\u0027, \u0027evolution\u0027: \u002D7.000000000000002, \u0027chempot\u0027: \u002D7.376891950000002}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 5.250 O2 + 8.833 MnO + 1.167 Li6MnO4\u0027, \u0027evolution\u0027: \u002D10.500000000000004, \u0027chempot\u0027: \u002D7.974100941666673}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 9.667 O2 + 1.167 Li6MnO4 + 8.833 Mn\u0027, \u0027evolution\u0027: \u002D19.333333333333336, \u0027chempot\u0027: \u002D8.936326982339308}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 10.250 O2 + 3.500 Li2O + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D20.5, \u0027chempot\u0027: \u002D8.9726899473393}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 12.000 O2 + 10.000 Mn + 7.000 Li\u0027, \u0027evolution\u0027: \u002D24.0, \u0027chempot\u0027: \u002D11.148307030000002}], \u0027mp\u002D763571\u0027: [{\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 1.000 O2 + 5.000 MnO2 + 1.000 Li4Mn5O12\u0027, \u0027evolution\u0027: \u002D2.000000000000001, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 1.200 O2 + 0.800 Li5Mn7O16 + 4.400 MnO2\u0027, \u0027evolution\u0027: \u002D2.400000000000002, \u0027chempot\u0027: \u002D5.166053818749994}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 2.300 O2 + 2.200 Mn2O3 + 0.800 Li5Mn7O16\u0027, \u0027evolution\u0027: \u002D4.6000000000000005, \u0027chempot\u0027: \u002D5.666080393750012}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 3.000 O2 + 2.000 Li2MnO3 + 4.000 Mn2O3\u0027, \u0027evolution\u0027: \u002D6.000000000000001, \u0027chempot\u0027: \u002D6.338404574107159}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 3.667 O2 + 2.667 Mn3O4 + 2.000 Li2MnO3\u0027, \u0027evolution\u0027: \u002D7.333333333333335, \u0027chempot\u0027: \u002D6.445984513749981}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 4.000 O2 + 4.000 LiMnO2 + 2.000 Mn3O4\u0027, \u0027evolution\u0027: \u002D8.000000000000002, \u0027chempot\u0027: \u002D6.923267229999968}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 5.000 O2 + 4.000 LiMnO2 + 6.000 MnO\u0027, \u0027evolution\u0027: \u002D10.000000000000002, \u0027chempot\u0027: \u002D7.376891950000002}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 6.000 O2 + 9.333 MnO + 0.667 Li6MnO4\u0027, \u0027evolution\u0027: \u002D12.0, \u0027chempot\u0027: \u002D7.974100941666673}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 10.667 O2 + 0.667 Li6MnO4 + 9.333 Mn\u0027, \u0027evolution\u0027: \u002D21.333333333333332, \u0027chempot\u0027: \u002D8.936326982339308}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 11.000 O2 + 10.000 Mn + 2.000 Li2O\u0027, \u0027evolution\u0027: \u002D22.0, \u0027chempot\u0027: \u002D8.9726899473393}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 12.000 O2 + 4.000 Li + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D24.0, \u0027chempot\u0027: \u002D11.148307030000002}], \u0027mp\u002D691115\u0027: [{\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 2.000 Li4Mn5O12\u0027, \u0027evolution\u0027: \u002D0.0, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 0.333 O2 + 1.333 Li5Mn7O16 + 0.667 Li2MnO3\u0027, \u0027evolution\u0027: \u002D0.6666666666666686, \u0027chempot\u0027: \u002D5.536675429999954}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 1.500 O2 + 4.000 Li2MnO3 + 3.000 Mn2O3\u0027, \u0027evolution\u0027: \u002D3.0, \u0027chempot\u0027: \u002D6.338404574107159}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 2.000 O2 + 2.000 Mn3O4 + 4.000 Li2MnO3\u0027, \u0027evolution\u0027: \u002D4.0, \u0027chempot\u0027: \u002D6.445984513749981}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 2.667 O2 + 0.667 Mn3O4 + 8.000 LiMnO2\u0027, \u0027evolution\u0027: \u002D5.333333333333335, \u0027chempot\u0027: \u002D6.923267229999968}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 3.000 O2 + 8.000 LiMnO2 + 2.000 MnO\u0027, \u0027evolution\u0027: \u002D6.000000000000001, \u0027chempot\u0027: \u002D7.376891950000002}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 5.000 O2 + 1.333 Li6MnO4 + 8.667 MnO\u0027, \u0027evolution\u0027: \u002D10.0, \u0027chempot\u0027: \u002D7.974100941666673}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 9.333 O2 + 1.333 Li6MnO4 + 8.667 Mn\u0027, \u0027evolution\u0027: \u002D18.666666666666668, \u0027chempot\u0027: \u002D8.936326982339308}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 10.000 O2 + 4.000 Li2O + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D20.0, \u0027chempot\u0027: \u002D8.9726899473393}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 12.000 O2 + 8.000 Li + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D24.0, \u0027chempot\u0027: \u002D11.148307030000002}]}, \u0027formula_discharge\u0027: \u0027Li4Mn5O12\u0027, \u0027energy_vol\u0027: 2031.9799879656332, \u0027stability_discharge\u0027: 8.881784197001252e\u002D16, \u0027max_voltage_step\u0027: 0, \u0027nsteps\u0027: 1, \u0027min_voltage\u0027: 4.811456317499997, \u0027stability_data\u0027: {\u0027mp\u002D691123\u0027: 0.02191620243902559, \u0027mp\u002D763571\u0027: 0.08267542921052584, \u0027mp\u002D691115\u0027: 8.881784197001252e\u002D16}, \u0027max_instability\u0027: 0.08267542921052584, \u0027stability_charge\u0027: 0.08267542921052584, \u0027working_ion\u0027: \u0027Li\u0027, \u0027framework\u0027: {\u0027nelements\u0027: 2, \u0027reduced_cell_formula\u0027: \u0027Mn5O12\u0027, \u0027unit_cell_composition\u0027: {\u0027Mn\u0027: 5.0, \u0027O\u0027: 12.0}, \u0027reduced_cell_composition\u0027: {\u0027Mn\u0027: 5.0, \u0027O\u0027: 12.0}, \u0027elements\u0027: [\u0027Mn\u0027, \u0027O\u0027]}, \u0027fracA_discharge\u0027: 0.19047619047619047, \u0027formula_charge\u0027: \u0027Li2Mn5O12\u0027, \u0027max_voltage\u0027: 4.811456317499997, \u0027fracA_charge\u0027: 0.10526315789473684, \u0027unstable_material_ids\u0027: [\u0027mp\u002D691123\u0027], \u0027id_charge\u0027: \u0027mp\u002D763571\u0027, \u0027capacity_vol\u0027: 422.3211963028769, \u0027average_voltage\u0027: 4.811456317499997, \u0027stable_material_ids\u0027: [\u0027mp\u002D763571\u0027, \u0027mp\u002D691115\u0027], \u0027min_instability\u0027: 8.881784197001252e\u002D16}], \u0027capacity_vol\u0027: 422.3211963028769, \u0027sbxn\u0027: [\u0027jcesr\u0027, \u0027core\u0027, \u0027vw\u0027], \u0027all_pairs\u0027: [{\u0027capacity_grav\u0027: 108.40992460165047, \u0027id_discharge\u0027: \u0027mp\u002D691115\u0027, \u0027material_ids\u0027: [\u0027mp\u002D763571\u0027, \u0027mp\u002D691123\u0027, \u0027mp\u002D691115\u0027], \u0027energy_grav\u0027: 521.6096166043095, \u0027max_delta_volume\u0027: 0.0021080835216258365, \u0027muO2_data\u0027: {\u0027mp\u002D691123\u0027: [{\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 0.250 O2 + 1.750 Li4Mn5O12 + 1.250 MnO2\u0027, \u0027evolution\u0027: \u002D0.5000000000000007, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 0.600 O2 + 1.400 Li5Mn7O16 + 0.200 MnO2\u0027, \u0027evolution\u0027: \u002D1.2000000000000022, \u0027chempot\u0027: \u002D5.166053818749994}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 0.650 O2 + 1.400 Li5Mn7O16 + 0.100 Mn2O3\u0027, \u0027evolution\u0027: \u002D1.3000000000000023, \u0027chempot\u0027: \u002D5.666080393750012}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 1.875 O2 + 3.500 Li2MnO3 + 3.250 Mn2O3\u0027, \u0027evolution\u0027: \u002D3.7500000000000004, \u0027chempot\u0027: \u002D6.338404574107159}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 2.417 O2 + 3.500 Li2MnO3 + 2.167 Mn3O4\u0027, \u0027evolution\u0027: \u002D4.833333333333333, \u0027chempot\u0027: \u002D6.445984513749981}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 3.000 O2 + 7.000 LiMnO2 + 1.000 Mn3O4\u0027, \u0027evolution\u0027: \u002D6.000000000000002, \u0027chempot\u0027: \u002D6.923267229999968}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 3.500 O2 + 7.000 LiMnO2 + 3.000 MnO\u0027, \u0027evolution\u0027: \u002D7.000000000000002, \u0027chempot\u0027: \u002D7.376891950000002}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 5.250 O2 + 8.833 MnO + 1.167 Li6MnO4\u0027, \u0027evolution\u0027: \u002D10.500000000000004, \u0027chempot\u0027: \u002D7.974100941666673}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 9.667 O2 + 1.167 Li6MnO4 + 8.833 Mn\u0027, \u0027evolution\u0027: \u002D19.333333333333336, \u0027chempot\u0027: \u002D8.936326982339308}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 10.250 O2 + 3.500 Li2O + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D20.5, \u0027chempot\u0027: \u002D8.9726899473393}, {\u0027reaction\u0027: \u00271.000 Li7Mn10O24 \u002D\u003E 12.000 O2 + 10.000 Mn + 7.000 Li\u0027, \u0027evolution\u0027: \u002D24.0, \u0027chempot\u0027: \u002D11.148307030000002}], \u0027mp\u002D763571\u0027: [{\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 1.000 O2 + 5.000 MnO2 + 1.000 Li4Mn5O12\u0027, \u0027evolution\u0027: \u002D2.000000000000001, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 1.200 O2 + 0.800 Li5Mn7O16 + 4.400 MnO2\u0027, \u0027evolution\u0027: \u002D2.400000000000002, \u0027chempot\u0027: \u002D5.166053818749994}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 2.300 O2 + 2.200 Mn2O3 + 0.800 Li5Mn7O16\u0027, \u0027evolution\u0027: \u002D4.6000000000000005, \u0027chempot\u0027: \u002D5.666080393750012}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 3.000 O2 + 2.000 Li2MnO3 + 4.000 Mn2O3\u0027, \u0027evolution\u0027: \u002D6.000000000000001, \u0027chempot\u0027: \u002D6.338404574107159}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 3.667 O2 + 2.667 Mn3O4 + 2.000 Li2MnO3\u0027, \u0027evolution\u0027: \u002D7.333333333333335, \u0027chempot\u0027: \u002D6.445984513749981}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 4.000 O2 + 4.000 LiMnO2 + 2.000 Mn3O4\u0027, \u0027evolution\u0027: \u002D8.000000000000002, \u0027chempot\u0027: \u002D6.923267229999968}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 5.000 O2 + 4.000 LiMnO2 + 6.000 MnO\u0027, \u0027evolution\u0027: \u002D10.000000000000002, \u0027chempot\u0027: \u002D7.376891950000002}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 6.000 O2 + 9.333 MnO + 0.667 Li6MnO4\u0027, \u0027evolution\u0027: \u002D12.0, \u0027chempot\u0027: \u002D7.974100941666673}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 10.667 O2 + 0.667 Li6MnO4 + 9.333 Mn\u0027, \u0027evolution\u0027: \u002D21.333333333333332, \u0027chempot\u0027: \u002D8.936326982339308}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 11.000 O2 + 10.000 Mn + 2.000 Li2O\u0027, \u0027evolution\u0027: \u002D22.0, \u0027chempot\u0027: \u002D8.9726899473393}, {\u0027reaction\u0027: \u00272.000 Li2Mn5O12 \u002D\u003E 12.000 O2 + 4.000 Li + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D24.0, \u0027chempot\u0027: \u002D11.148307030000002}], \u0027mp\u002D691115\u0027: [{\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 2.000 Li4Mn5O12\u0027, \u0027evolution\u0027: \u002D0.0, \u0027chempot\u0027: \u002D4.93552791875}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 0.333 O2 + 1.333 Li5Mn7O16 + 0.667 Li2MnO3\u0027, \u0027evolution\u0027: \u002D0.6666666666666686, \u0027chempot\u0027: \u002D5.536675429999954}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 1.500 O2 + 4.000 Li2MnO3 + 3.000 Mn2O3\u0027, \u0027evolution\u0027: \u002D3.0, \u0027chempot\u0027: \u002D6.338404574107159}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 2.000 O2 + 2.000 Mn3O4 + 4.000 Li2MnO3\u0027, \u0027evolution\u0027: \u002D4.0, \u0027chempot\u0027: \u002D6.445984513749981}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 2.667 O2 + 0.667 Mn3O4 + 8.000 LiMnO2\u0027, \u0027evolution\u0027: \u002D5.333333333333335, \u0027chempot\u0027: \u002D6.923267229999968}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 3.000 O2 + 8.000 LiMnO2 + 2.000 MnO\u0027, \u0027evolution\u0027: \u002D6.000000000000001, \u0027chempot\u0027: \u002D7.376891950000002}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 5.000 O2 + 1.333 Li6MnO4 + 8.667 MnO\u0027, \u0027evolution\u0027: \u002D10.0, \u0027chempot\u0027: \u002D7.974100941666673}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 9.333 O2 + 1.333 Li6MnO4 + 8.667 Mn\u0027, \u0027evolution\u0027: \u002D18.666666666666668, \u0027chempot\u0027: \u002D8.936326982339308}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 10.000 O2 + 4.000 Li2O + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D20.0, \u0027chempot\u0027: \u002D8.9726899473393}, {\u0027reaction\u0027: \u00272.000 Li4Mn5O12 \u002D\u003E 12.000 O2 + 8.000 Li + 10.000 Mn\u0027, \u0027evolution\u0027: \u002D24.0, \u0027chempot\u0027: \u002D11.148307030000002}]}, \u0027formula_discharge\u0027: \u0027Li4Mn5O12\u0027, \u0027energy_vol\u0027: 2031.9799879656332, \u0027stability_discharge\u0027: 8.881784197001252e\u002D16, \u0027max_voltage_step\u0027: 0, \u0027nsteps\u0027: 1, \u0027min_voltage\u0027: 4.811456317499997, \u0027stability_data\u0027: {\u0027mp\u002D691123\u0027: 0.02191620243902559, \u0027mp\u002D763571\u0027: 0.08267542921052584, \u0027mp\u002D691115\u0027: 8.881784197001252e\u002D16}, \u0027max_instability\u0027: 0.08267542921052584, \u0027stability_charge\u0027: 0.08267542921052584, \u0027working_ion\u0027: \u0027Li\u0027, \u0027framework\u0027: {\u0027nelements\u0027: 2, \u0027reduced_cell_formula\u0027: \u0027Mn5O12\u0027, \u0027unit_cell_composition\u0027: {\u0027Mn\u0027: 5.0, \u0027O\u0027: 12.0}, \u0027reduced_cell_composition\u0027: {\u0027Mn\u0027: 5.0, \u0027O\u0027: 12.0}, \u0027elements\u0027: [\u0027Mn\u0027, \u0027O\u0027]}, \u0027fracA_discharge\u0027: 0.19047619047619047, \u0027formula_charge\u0027: \u0027Li2Mn5O12\u0027, \u0027max_voltage\u0027: 4.811456317499997, \u0027fracA_charge\u0027: 0.10526315789473684, \u0027unstable_material_ids\u0027: [\u0027mp\u002D691123\u0027], \u0027id_charge\u0027: \u0027mp\u002D763571\u0027, \u0027capacity_vol\u0027: 422.3211963028769, \u0027average_voltage\u0027: 4.811456317499997, \u0027stable_material_ids\u0027: [\u0027mp\u002D763571\u0027, \u0027mp\u002D691115\u0027], \u0027min_instability\u0027: 8.881784197001252e\u002D16}], \u0027average_voltage\u0027: 4.811456317499997, \u0027spacegroup\u0027: {\u0027symbol\u0027: \u0027C2/c\u0027, \u0027number\u0027: 15, \u0027point_group\u0027: \u00272/m\u0027, \u0027source\u0027: \u0027spglib\u0027, \u0027crystal_system\u0027: \u0027monoclinic\u0027, \u0027hall\u0027: \u0027\u002DC 2yc\u0027}, \u0027stable_material_ids\u0027: [\u0027mp\u002D763571\u0027, \u0027mp\u002D691115\u0027], \u0027min_instability\u0027: 8.881784197001252e\u002D16}")
+  })
+
+    });
+  };
+  </script>
+
+
+
+<script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-26097776-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+</script>
+
+</head>
+<body>
+  
+  <header>
+  
+
+
+
+<nav class="navbar navbar-inverse">
+  <div class="navbar-inner">  
+     <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </a>
+    <div class="nav-collapse">
+      <a class="brand" href="/"><img src="/static/images/Logo/Mp-logo-v5.ad467cf84f15.png"></a>
+      <ul class="nav pull-right" role="navigation"> 
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li class=dropdown>
+          <a data-toggle=dropdown role="button" class="dropdown-toggle" href="#">About <b class="caret"></b></a>  
+          <ul class="dropdown-menu">
+            <li role="presentation">
+              <a href="/about">About</a>
+            </li>
+            <li role="presentation">
+              <a class="" href="https://discuss.materialsproject.org" target="_blank">
+  Forum
+</a>
+
+           </li>
+            <li role="presentation">
+              <a href="/press">Press</a>
+            </li>
+            <li role="presentation">
+              <a href="/references">Publications</a>
+            </li>
+            <li role="presentation">
+              <a href="/citing">Citing</a>
+            </li>
+            <li role="presentation">
+              <a href="/infrastructure">Infrastructure</a>
+            </li>
+          </ul>
+        </li>
+
+      
+        
+          
+<li class="dropdown">
+  <a data-toggle=dropdown role="button" class="dropdown-toggle" href="#">Apps <b class="caret"></b></a>  
+    
+  <ul class="dropdown-menu">
+    <li role="presentation">
+      <a href="/#search/materials/">Materials Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#search/batteries/">Battery Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/xtaltoolkit">Crystal Toolkit</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/structurepredictor">Structure Predictor</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/phasediagram/">Phase Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/pourbaixdiagram">Pourbaix Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/reactioncalculator">Reaction Calculator</a>
+    </li>
+    <li role="presentation">
+      <a href="/#search/porous/">Nanoporous Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#search/molecules/">Molecules Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/#apps/rfbdashboard/">RFB Dashboard</a>
+    </li>
+  </ul>
+</li>
+
+        
+      
+
+        <li class="dropdown">
+  <a data-toggle=dropdown role="button" class="dropdown-toggle" href="#">Documentation <b class="caret"></b></a>
+  <ul class="dropdown-menu">
+    <li role="presentation">
+      <a href="/docs/api">API</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/calculations">Calculations Guide</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/phasediagram">Phase Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/pourbaixdiagram">Pourbaix Diagram</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/battery">Battery Search</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/rxncalculator">Reaction Calculator</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/xtaltoolkit">Crystal Toolkit</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/structurepredictor">Structure Predictor</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/nanoporous">Nanoporous Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/molecules">Molecules Explorer</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/rfbdashboard">RFB Dashboard</a>
+    </li>
+    <li role="presentation">
+      <a href="/docs/error_checking">Error Checking</a>
+    </li>
+    <li role="separator" class="divider"
+        style="border-bottom: 1px solid #6F6F6F;"></li>
+    <li role="presentation">
+      <a href="//materialsproject.org/wiki">Wiki</a>
+    </li>
+  </ul>
+</li>
+
+        <li>
+        <li>
+          <a href="/open">API</a>
+        </li>
+        
+        <li>
+          <a href="https://www.youtube.com/playlist?list=PLTjFYVNE7LTjHJwV994iQHS-bIkh3UXKJ"
+             class="nav-tutorials-link yt-icon-youtube-play">
+            Tutorials
+          </a>
+        </li>
+        <li>
+          <a href="/dashboard" data-icon="&gt;" class="icon"> Dashboard</a>
+        </li>
+        <li>
+          <a href="/janrain/logout" ><i title="logout" class="icon-logout"></i></a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  </header>
+  
+  
+<div class="container">
+	<div class="detail" id="battery">
+		<div class="row detail-header">
+			<span class="detail-section">
+				<h5><small> Intercalation Battery Framework </small></h5>
+				<h4>
+  <span id="working-ion"></span><sub id="discharge"></sub>Mn<sub>5</sub>O<sub>12</sub>
+</h4>
+			</span>
+			<span class="vertical-line"></span>
+			<span class="detail-section">
+				<h5 ><small>ID:</small></h5>
+				<h4 >mp-300691115</h4>
+			</span>
+			<span class="vertical-line"></span>
+			
+		</div>
+		
+
+  <div class="row">
+    <div class="span6">
+      <div class="panel" id="discharge-curve"></div>
+    </div>
+    <div class="span6 pull-up">
+      <div class="panel" id="o2evolution"></div>
+      <strong>Safety Data For : </strong>
+      <select class="selectpicker" id="safety-data" data-width="180px">
+        
+          <option>
+            Li0.11Mn<sub>5</sub>O<sub>12</sub>
+          </option>
+        
+      </select>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="span6">
+        <div id="jsmol"></div>
+        <select class="selectpicker" id="jsmol-select" data-width="180px">
+        
+          <option name="mp-691115">
+            Li<sub>4</sub>Mn<sub>5</sub>O<sub>12</sub>
+          </option>
+          <option name="mp-763571">
+            Li<sub>2</sub>Mn<sub>5</sub>O<sub>12</sub>
+          </option>
+        
+      </select>
+
+    </div>
+
+    <div class="span4">
+      <table class="table data">
+        <tbody>
+          <tr>
+            <td>
+              <h5>Total Gravimetric Capacity</h5>
+              <span class="value">
+                108
+              </span>
+              <span>mAh g<sup>-1</sup></span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <h5>Total Volumetric Capacity</h5>
+              <span class="value">
+                422
+              </span>
+              <span>Ah l<sup>-1</sup></span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <h5>Volume Change</h5>
+              <span class="value">
+                0 %
+              </span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <h5>Energy Density</h5>
+              <span class="value">
+                2032 
+              </span>
+              <span>Wh/l</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <h5>Specific Energy</h5>
+              <span class="value">
+                522 
+              </span>
+              <span> Wh/kg</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+
+  <hr class="contained pull-up pull-down">
+
+  <div class=row>
+    <div class="span12">
+      <h4>Voltage Pair Properties</h4>
+      
+
+      <table class="table table-bordered pair">
+        <tbody>
+          <tr>
+            <td>
+              <span class=charge>
+                <span class='label-bg'>+ charged</span>
+              </span>
+              <a href="/materials/mp-763571" class="btn">Li<sub>2</sub>Mn<sub>5</sub>O<sub>12</sub></a>
+            </td>
+            <td>
+              <div class="value">0.083 </div>
+              <div class='label-bg'>Energy Above Hull (eV/atom)</div>
+            </td>
+            <td rowspan="2">
+              <strong>Volume Change</strong>
+              <div class="value">0%</div>
+            </td>
+            <td rowspan="2">
+              <strong>Capacity</strong>
+              <div class="value">108</div>
+              <span> mAhg<sup>-1</sup></span>
+            </td>
+            <td rowspan="2">
+              <strong>Voltage</strong>
+              <div class="value">4.81 V</div>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <span class='charge'>
+                <span class='label-bg'>- discharged</span>
+              </span>
+              <a href="/materials/mp-691115" class="btn">Li<sub>4</sub>Mn<sub>5</sub>O<sub>12</sub></a>
+            </td>
+            <td>
+              <div class="value">0.000 </div>
+              <div class='label-bg'>Energy Above Hull (eV/atom)</div>
+            </td>
+          </tr>
+        </tbody>
+      </table>  
+
+    
+  
+    </div>
+  </div>
+
+
+
+
+	</div>
+</div>
+
+  <footer>
+  
+  
+  <hr>
+<ul class="text-center inline">
+	<li>
+  	<a href="/about">About</a>
+	</li>
+	<li>
+	  <a class="" href="https://discuss.materialsproject.org" target="_blank">
+  Forum
+</a>
+
+	</li>
+	<li>
+	  <a href="/citing">Citing</a>
+	</li>
+	<li>
+  	  <a href="/terms">Terms of Use</a>
+	</li>
+	<li>
+  	<a href="/open">API</a>
+	</li>
+</ul>
+<div class="pad-top row text-center">
+	<small>
+		Powered by <a href="http://pymatgen.org">pymatgen</a>, <a href="http://pythonhosted.org//custodian/">custodian</a> and <a href="https://pythonhosted.org/FireWorks/">fireworks</a>
+	</small>
+</div>
+
+  </footer>
+  <!-- Manged at https://cdn.fontawesome.com by dwinston-->
+  <script src="https://use.fontawesome.com/fd3b9caec8.js"></script>
+</body>
+</html>
